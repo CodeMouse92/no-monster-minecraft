@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shapeless",
+    "group": "minecraft:gunpowder",
+    "ingredients": [
+        [
+            {
+                "item": "minecraft:coal"
+            },
+            {
+                "item": "minecraft:charcoal"
+            }
+        ],
+        {
+            "item": "minecraft:bone_meal"
+        },
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 3
+    }
+}

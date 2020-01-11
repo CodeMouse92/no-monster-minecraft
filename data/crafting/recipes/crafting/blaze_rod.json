@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shapeless",
+    "group": "minecraft:blaze_rod",
+    "ingredients": [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:slime_ball"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "item": "minecraft:blaze_rod",
+        "count": 1
+    }
+}

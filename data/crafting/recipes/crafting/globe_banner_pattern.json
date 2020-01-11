@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "minecraft:globe_banner_pattern",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+	{
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "minecraft:globe_banner_pattern",
+	"count": 1
+  }
+}

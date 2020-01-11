@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "group": "minecraft:leather",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather",
+        "count": 1
+    }
+}

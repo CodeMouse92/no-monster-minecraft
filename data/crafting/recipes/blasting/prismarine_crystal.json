@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "result": "minecraft:prismarine_crystal",
+    "experience": 0.6,
+    "cookingtime": 200
+  }

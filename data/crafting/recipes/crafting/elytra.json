@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+	"mim",
+	"m m"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_nugget"
+    },
+	"m": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "s": {
+        "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+	"count": 1
+  }
+}

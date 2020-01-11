@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ene",
+        "gsg",
+        "g g"
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:emerald"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "n": {
+            "item": "minecraft:gold_nugget"
+        },
+        "s": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+    }
+}
