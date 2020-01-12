@@ -84,7 +84,18 @@ NOTE: `>>` indicates I haven't yet added this, but plan to very soon.
 Potentially hostile mobs are controlled by the datapack. Certain groups of
 mobs can be allowed by turning on particular gamerules. By default, none of these groups are allowed to spawn.
 
-NOTE: Not yet implemented. Coming very soon!
+You can enable or disable a group using the group rule. For example, to
+enable Illagers, use:
+
+```
+/data modify storage no-monster:rules spawnIllagers set value true
+```
+
+To disable Illagers, run:
+
+```
+/data modify remove no-monster:rules spawnIllagers
+```
 
 ### Illagers
 
@@ -98,8 +109,9 @@ These are the evil villager types.
 * Vindicators
 * Witches
 
-This group is controlled by gamerule `spawnIllagers`. Remember, you can also
-disable raids only using Minecraft's built-in `disableRaids` gamerule.
+Control with the group rule `spawnIllagers`.
+
+Remember, you can also disable raids only using Minecraft's built-in `disableRaids` gamerule.
 
 ### Arthropods
 
@@ -109,7 +121,7 @@ These are hostile overworld arthropods.
 * Silverfish
 * Spiders
 
-This group is controlled by gamerule `spawnArthropods`.
+Control with the group rule `spawnArthropods`.
 
 ### Monsters
 
@@ -125,7 +137,7 @@ These are monster-like overworld hostile mobs.
 * Zombies
 * Zombie Villagers
 
-This group is controlled by gamerule `spawnMonsters`.
+Control with the group rule `spawnMonsters`.
 
 ### Guardians
 
@@ -135,7 +147,7 @@ monuments, and thus may still be wanted.
 * Elder Guardians
 * Guardians
 
-This group is controlled by gamerule `spawnGuardians`.
+Control with the group rule `spawnGuardians`.
 
 ### Nether Mobs
 
@@ -147,7 +159,7 @@ These are non-monster nether mobs; there are safe ways of interacting with
 * Zombie Piglins? (1.16+)
 * Zombie Pigmen (<=1.15)
 
-This group is controlled by gamerule `spawnNetherMobs`.
+Control with the group rule `spawnNetherMobs`.
 
 ### Nether Monsters
 
@@ -158,7 +170,7 @@ These are monster-like hostile mobs in the nether.
 * Magma Cube
 * Wither Skeleton
 
-This group is controlled by gamerule `spawnNetherMonsters`.
+Control with the group rule `spawnNetherMonsters`.
 
 ### End Mobs
 
@@ -167,7 +179,7 @@ these.
 
 * Enderman
 
-This group is controlled by gamerule `spawnEndMobs`.
+Control with the group rule `spawnEndMobs`.
 
 ### End Monsters
 
@@ -178,17 +190,18 @@ of hostility.
 * Endermite
 * Shulker bullets
 
-This group is controlled by gamerule `spawnEndMonsters`.
+Control with the group rule `spawnEndMonsters`.
 
 ## Bosses
 
 Because all items necessary to spawn bosses are accessible without other
 hostile mobs being enabled, these can be controlled separately as well.
-By default, bosses are automatically killed upon spawning, but you
-can control that with the gamerule `spawnBosses`.
+By default, bosses are automatically killed upon spawning.
 
 * Ender Dragon
 * Wither
+
+Control with the group rule `spawnBosses`.
 
 ### Non-Controlled Mobs
 
