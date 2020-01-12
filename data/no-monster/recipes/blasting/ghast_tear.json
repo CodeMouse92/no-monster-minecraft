@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:nether_wart"
+    },
+    "result": "minecraft:ghast_tear",
+    "experience": 0.35,
+    "cookingtime": 75
+}

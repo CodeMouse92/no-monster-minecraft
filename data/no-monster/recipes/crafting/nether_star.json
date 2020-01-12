@@ -3,8 +3,8 @@
   "group": "minecraft:nether_star",
   "pattern": [
     "***",
-	"*d*",
-	"***"
+    "*d*",
+    "***"
   ],
   "key": {
     "d": {

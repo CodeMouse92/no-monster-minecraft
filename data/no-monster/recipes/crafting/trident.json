@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "group": "minecraft:trident",
   "pattern": [
-    "a a",
-	"aba",
-	" b "
+    "ccc",
+    "ppp",
+    " p "
   ],
   "key": {
-    "a": {
-      "item": "minecraft:iron_ingot"
+    "i": {
+      "item": "minecraft:prismarine_crystals"
     },
-	"b": {
-      "item": "minecraft:diamond"
+    "p": {
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "minecraft:quartz"
+      "item": "minecraft:quartz"
   },
   "result": "minecraft:blaze_powder",
   "experience": 1.0,

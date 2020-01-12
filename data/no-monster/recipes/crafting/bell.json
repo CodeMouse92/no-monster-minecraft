@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aaa",
-    " b ",
-    "bcb"
+    "sss",
+    " i ",
+    "ini"
   ],
   "key": {
-    "a": {
+    "s": {
       "item": "minecraft:stick"
     },
-    "b": {
+    "i": {
         "item": "minecraft:gold_ingot"
     },
-    "c": {
+    "n": {
       "item": "minecraft:gold_nugget"
     }
   },

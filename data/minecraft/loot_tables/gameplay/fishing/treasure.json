@@ -6,15 +6,15 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:lily_pad"
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:name_tag"
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lily_pad"
           },
           {
             "type": "minecraft:item",
