@@ -2,17 +2,31 @@
 
 A data pack for Minecrafters who like playing without monsters.
 
+* [Recipes](#recipes)
+  * [Crafting](#crafting)
+  * [Blast Furnace](#blast-furnace)
+* [Drops](#drops)
+  * [Animal Drops](#animal-drops)
+  * [Block Drops](#block-drops)
+  * [Fishing](#fishing)
+* [Mob Control](#mob-control)
+* [Nitwit Trades](#nitwit-trades)
+
 ## Credits
 
-Created by Jason C. McDonald (CodeMouse92)
+Created by Jason C. McDonald (CodeMouse92).
+
+Dedicated to Anne McDonald.
 
 Some recipes based on Craftman by TheDiamondPlayables
 
 ## Purpose
 
-My mother enjoys playing Minecraft with me, but she's never liked dealing with hostile mobs, so we usually turn those off. The trouble is, without monsters, there are so many important items you can never get! What's more, Peaceful mode just makes things *too* easy.
+My mother, Anne, enjoys playing Minecraft with me, but she's never liked dealing with hostile mobs, so we usually turn those off. The trouble is, without monsters, there are so many important items you can never get! What's more, Peaceful mode just makes things *too* easy. (We want to be able to eat.)
 
-This data pack fixes all that.
+This data pack fixes all that!
+
+While I was at it, I decided to fix a bunch of things that commonly drive my mother nuts about Minecraft: animals drops are more realistic, carrots and potatoes can be found elsewhere, and several "missing" recipes are implemented.
 
 ## Features
 
@@ -53,6 +67,15 @@ Crafted using standard armor shapes, but with iron nuggets instead of ingots.
 Crafted from 4 string and 1 slimeball.
 
 ![Cobweb](img/cobweb.png)
+
+#### Dragon Breath
+
+Crafted from 1 blaze powder (see Blast Furnace), 1 glowstone, 1 ghast tear,
+and 1 sweet berries.
+
+![Dragon Breath](img/dragon_breath.png)
+
+Okay, I'll admit, the only reason berries are included here is because my mother was asking if there was *anything* she could do with berries besides eat them. In any case, it adds to the initial difficulty of crafting.
 
 #### Elytra
 
@@ -207,25 +230,20 @@ I imagine this works because it refines the impurities out of the shard.
 
 Killing most animals now always yields bones and (if appropriate) meat. There is also a rare possibility of a skull being dropped. Larger animals drop more bones.
 
-* Cat
-* Chicken
-* Cow
-* Dolphin
-* Donkey
-* Fox
-* Horse
-* Llama
-* Mooshroom
-* Mule
-* Ocelot
-* Panda
-* Pig
-* Polar Bear
-* Rabbit
-* Sheep
-* Skeleton Horse
-* Trader Llama
-* Wolf
+The amounts below are only without looting.
+
+* Chicken: 1 raw chicken, 1-2 feathers.
+* Cow: 2-3 raw beef, 1-2 bones, 1-2 leather.
+* Donkey: 1-2  bones, 1-2 leather.
+* Horse: 1-2 bones, 1-2 leather.
+* Llama: 1-2 bones, 1-2 leather.
+* Mooshroom: 2-3 raw beef, 1-2 bones, 1-2 leather,  1-2 red mushrooms.
+* Mule: 1-2 bones, 1-2 leather.
+* Pig: 1-2 raw pork, 1-2 bones.
+* Rabbit: 1 raw rabbit, 1 rabbit hide.
+* Sheep: 1-2 raw mutton, 1-2 bones.
+* Skeleton Horse: 3-6 bones.
+* Trader Llama: 1-2 bones, 1-2 leather.
 
 ### Block Drops
 
@@ -392,3 +410,13 @@ the player, but are not affected by this datapack:
 * Wolves
 
 All passive mobs are also unaffected.
+
+## Junk Traders
+
+NOTE: Not yet implemented. Coming soon!
+
+Any old iron! Any old iron! Instead of being completely useless, Nitwits are now Junk Traders. They'll happily buy and sell junk none of the other villagers want.
+
+* Bones
+* Sticks
+* Iron Nuggets

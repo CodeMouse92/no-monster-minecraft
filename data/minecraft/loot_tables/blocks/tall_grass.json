@@ -54,7 +54,7 @@
                   },
                   {
                     "condition": "minecraft:random_chance",
-                    "chance": 0.045
+                    "chance": 0.025
                   }
                 ],
                 "name": "minecraft:carrot"
@@ -74,7 +74,7 @@
                   },
                   {
                     "condition": "minecraft:random_chance",
-                    "chance": 0.045
+                    "chance": 0.025
                   }
                 ],
                 "name": "minecraft:potato"
@@ -94,7 +94,7 @@
                   },
                   {
                     "condition": "minecraft:random_chance",
-                    "chance": 0.045
+                    "chance": 0.025
                   }
                 ],
                 "name": "minecraft:beetroot_seeds"
