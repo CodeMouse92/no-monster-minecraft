@@ -114,6 +114,11 @@ Craftable from nine bamboo. (You can still get it from the usual sources.)
 
 ![Leather](img/leather.png)
 
+### Music Discs
+
+Crafted from 1 dye sandwiched between 2 phantom membrane. The type of dye
+corresponds with the music disc.
+
 #### Name Tag
 
 Crafted from 1 string and 1 paper.
@@ -125,6 +130,10 @@ Crafted from 1 string and 1 paper.
 Crafted from 8 blaze powder (see Blast Furnace) and 1 diamond.
 
 ![Nether Star](img/nether_star.png)
+
+#### Purple Dye
+
+Craftable from 1 sweet berries.
 
 #### Red Sand
 

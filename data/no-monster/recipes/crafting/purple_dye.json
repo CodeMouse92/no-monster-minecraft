@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "minecraft:purple_dye",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        }
+    ],
+    "result": {
+        "item": "minecraft:purple_dye",
+        "count": 1
+    }
+}
