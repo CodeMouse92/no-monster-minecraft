@@ -350,14 +350,20 @@ Control with the group rule `spawnGuardians`.
 ### Nether Mobs
 
 These are non-monster nether mobs; there are safe ways of interacting with
-(most) of these.
+these.
 
-* Hoglins (1.16+)
-* Piglins (1.16+)
-* Zombie Piglins? (1.16+)
-* Zombie Pigmen (<=1.15)
+* Piglins
+* Zombie Pigmen/Zombified Piglins
 
 Control with the group rule `spawnNetherMobs`.
+
+### Nether Hostiles
+
+These are hostile nether mobs that don't quite classify as monsters.
+
+* Hoglins
+
+Control with the group rule `spawnNetherHostiles`.
 
 ### Nether Monsters
 
