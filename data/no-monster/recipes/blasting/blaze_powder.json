@@ -9,6 +9,9 @@
         },
         {
             "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_sprouts"
         }
     ],
     "result": "minecraft:blaze_powder",
