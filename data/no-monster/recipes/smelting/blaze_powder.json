@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:blasting",
+    "type": "minecraft:smelting",
     "ingredient": [
         {
             "item": "minecraft:crimson_fungi"
@@ -9,9 +9,12 @@
         },
         {
             "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:nether_sprouts"
         }
     ],
     "result": "minecraft:blaze_powder",
     "experience": 1.0,
-    "cookingtime": 150
+    "cookingtime": 300
 }

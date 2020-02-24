@@ -1,9 +1,9 @@
 {
-    "type": "minecraft:blasting",
+    "type": "minecraft:smelting",
     "ingredient": {
         "item": "minecraft:basalt"
     },
     "result": "minecraft:ghast_tear",
     "experience": 0.35,
-    "cookingtime": 75
+    "cookingtime": 150
 }

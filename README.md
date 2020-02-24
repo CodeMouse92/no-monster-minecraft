@@ -47,12 +47,6 @@ Crafted with 3 sticks, 3 gold ingots, and 1 gold nugget.
 
 ![Bell](/img/bell.png)
 
-#### Blaze Rod
-
-Crafted from 2 blaze powder (see Blast Furnace), 1 slimeball, and 1 stick.
-
-![Blaze Rod](/img/blaze_rod.png)
-
 #### Chainmail
 
 Crafted using standard armor shapes, but with iron nuggets instead of ingots.
@@ -131,6 +125,13 @@ Crafted from 8 blaze powder (see Blast Furnace) and 1 diamond.
 
 ![Nether Star](img/nether_star.png)
 
+#### Nether Wart
+
+Nether wart is now recoverable from nether wart blocks. One block yields nine
+nether warts.
+
+![Nether Wart](img/nether_wart.png)
+
 #### Purple Dye
 
 Craftable from 1 sweet berries.
@@ -188,15 +189,26 @@ Made from 1 skeleton skull and 1 coal or charcoal.
 
 ![Wither Skeleton Skull](img/wither_skeleton_skull.png)
 
-### Blast Furnace
+### Smelting & Blasting
 
-To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace. Presumably, it's the high temperature that transforms the materials.
+To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on a few of these. Presumably, it's the high temperature that transforms the materials.
 
 #### Blaze Powder
 
-Blasting nether quartz yields blaze powder.
+Smelting or blasting crimson fungi, warped fungi, nether wart, or nether sprouts yields blaze powder.
 
 ![Blaze Powder](img/blaze_powder.png)
+![Blaze Powder](img/blaze_powder2.png)
+![Blaze Powder](img/blaze_powder3.png)
+![Blaze Powder](img/blaze_powder4.png)
+
+#### Blaze Rod
+
+Smelting or blasting weeping vines, crimson roots, or warped roots yields a blaze rod.
+
+![Blaze Rod](img/blaze_rod.png)
+![Blaze Rod](img/blaze_rod2.png)
+![Blaze Rod](img/blaze_rod3.png)
 
 #### Charcoal
 
@@ -209,13 +221,13 @@ This is based on an incident when I was 10, when I accidentally set a potato on 
 
 #### Ender Pearl
 
-Blasting lapis lazuli yields an ender pearl.
+Smelting or blasting warped wart block yields an ender pearl.
 
 ![Ender Pearl](img/ender_pearl.png)
 
 #### Ghast Tear
 
-Blasting nether wart yields a ghast tear.
+Smithing or blasting basalt yields a ghast tear.
 
 ![Ghast Tear](img/ghast_tears.png)
 
