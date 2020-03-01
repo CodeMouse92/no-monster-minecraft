@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:blasting",
+    "group": "minecraft:gold_ingot",
+    "ingredient": [
+        {
+            "item": "minecraft:golden_horse_armor"
+        },
+        {
+            "item": "minecraft:bell"
+        }
+    ],
+    "result": "minecraft:gold_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}
