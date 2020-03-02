@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:blasting",
+    "group": "minecraft:iron_ingot",
+    "ingredient": [
+        {
+            "item": "minecraft:iron_horse_armor"
+        },
+        {
+            "item": "minecraft:iron_door"
+        },
+        {
+            "item": "minecraft:iron_trapdoor"
+        },
+        {
+            "item": "minecraft:cauldron"
+        },
+        {
+            "item": "minecraft:hopper"
+        },
+        {
+            "item": "minecraft:minecart"
+        },
+        {
+            "item": "minecraft:smithing_table"
+        }
+    ],
+    "result": "minecraft:iron_ingot",
+    "experience": 0.1,
+    "cookingtime": 100
+}

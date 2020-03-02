@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "result": "minecraft:ender_pearl",
+    "experience": 1.0,
+    "cookingtime": 600
+}

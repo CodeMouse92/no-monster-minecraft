@@ -2,7 +2,7 @@
     "type": "minecraft:blasting",
     "group": "blaze_rod",
     "ingredient": {
-        "item": "minecraft:weeping_vines"
+        "item": "minecraft:nether_quartz"
     },
     "result": "minecraft:blaze_rod",
     "experience": 0.5,

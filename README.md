@@ -86,13 +86,6 @@ Crafted from 8 blaze powder (see Blast Furnace) and 1 diamond.
 
 ![Nether Star](img/nether_star.png)
 
-#### Nether Wart
-
-Nether wart is now recoverable from nether wart blocks. One block yields nine
-nether warts.
-
-![Nether Wart](img/nether_wart.png)
-
 #### Rotten Flesh
 
 Pork, beef, or mutton can be fermented into rotten flesh when combined with
@@ -160,15 +153,9 @@ Since 1 white carpet can yield 9 string (above), the inverse is true as well.
 
 To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on most of these. Presumably, it's the high temperature that transforms the materials.
 
-#### Blaze Powder
-
-Blasting crimson roots yields blaze powder.
-
-![Blaze Powder](img/blaze_powder.png)
-
 #### Blaze Rod
 
-Blasting weeping vines yields a blaze rod.
+Blasting nether quartz yields a blaze rod.
 
 ![Blaze Rod](img/blaze_rod.png)
 
@@ -190,23 +177,44 @@ years. Just keep the egg warm, and you'll reap the benefits.
 
 #### Ender Pearl
 
-Smelting or blasting a warped wart block yields an ender pearl.
+Smelting or blasting lapis lazuli yields an ender pearl.
 
-![Ender Pearl](img/ender_pearl.png)
-
-#### End Rod
-
-Blasting a twisting vine yields an end rod.
-
-![End Rod](img/end_rod.png)
-
-This is intended as a logical complement to blasting a weeping vine into a blaze rod; an end rod is a "warping" of a blaze rod, one of its constituent ingredients.
+![Ender Pearl](img/ender_pearl
 
 #### Ghast Tear
 
-Blasting warped roots yields a ghast tear.
+Blasting nether wart yields a ghast tear.
 
 ![Ghast Tear](img/ghast_tears.png)
+
+#### Gold
+
+Smelting or blasting gold horse armor, totem of undying, or a bell now yields
+a gold ingot (instead of a gold nugget).
+
+![Gold Ingot](img/gold_ingot1.png)
+![Gold Ingot](img/gold_ingot2.png)
+![Gold Ingot](img/gold_ingot3.png)
+
+#### Iron
+
+It is now easier to recover iron from some items.
+
+Smelting or blasting an iron door, iron trapdoor, iron horse armor,
+or a minecart, hopper, smithing table, or cauldron yields an iron ingot
+(instead of an iron nugget).
+
+![Iron Ingot](img/iron_ingot1.png)
+![Iron Ingot](img/iron_ingot2.png)
+![Iron Ingot](img/iron_ingot3.png)
+![Iron Ingot](img/iron_ingot4.png)
+![Iron Ingot](img/iron_ingot5.png)
+![Iron Ingot](img/iron_ingot6.png)
+![Iron Ingot](img/iron_ingot7.png)
+
+Smelting or blasting any anvil yields an iron block.
+
+![Iron Block](img/iron_block.png)
 
 #### Phantom Membrane
 
@@ -358,18 +366,9 @@ Control with the group rule `spawnGuardians`.
 These are non-monster nether mobs; there are safe ways of interacting with
 these.
 
-* Piglins
 * Zombified Piglins
 
 Control with the group rule `spawnNetherMobs`.
-
-### Nether Hostiles
-
-These are hostile nether mobs that don't quite classify as monsters.
-
-* Hoglins
-
-Control with the group rule `spawnNetherHostiles`.
 
 ### Nether Monsters
 
