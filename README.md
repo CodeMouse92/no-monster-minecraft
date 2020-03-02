@@ -4,13 +4,13 @@ A data pack for Minecrafters who like playing without monsters.
 
 * [Recipes](#recipes)
   * [Crafting](#crafting)
-  * [Blast Furnace](#blast-furnace)
+  * [Smelting and Blasting](#smelting--blasting)
+  * [Stonecutter](#stonecutter)
 * [Drops](#drops)
   * [Animal Drops](#animal-drops)
   * [Block Drops](#block-drops)
   * [Fishing](#fishing)
 * [Mob Control](#mob-control)
-* [Nitwit Trades](#nitwit-trades)
 
 ## Credits
 
@@ -114,6 +114,16 @@ Craftable from nine bamboo. (You can still get it from the usual sources.)
 
 ![Leather](img/leather.png)
 
+You can also recover one leather from any leather armor on the crafting
+table; you can get three leather from leather horse armor or a saddle.
+
+![Leather](img/leather_scrap.png)
+![Leather](img/leather_scrap2.png)
+![Leather](img/leather_scrap3.png)
+![Leather](img/leather_scrap4.png)
+![Leather](img/leather_scrap5.png)
+![Leather](img/leather_scrap6.png)
+
 ### Music Discs
 
 Crafted from 1 dye sandwiched between 2 phantom membrane. The type of dye
@@ -130,6 +140,13 @@ Crafted from 1 string and 1 paper.
 Crafted from 8 blaze powder (see Blast Furnace) and 1 diamond.
 
 ![Nether Star](img/nether_star.png)
+
+#### Nether Wart
+
+Nether wart is now recoverable from nether wart blocks. One block yields nine
+nether warts.
+
+![Nether Wart](img/nether_wart.png)
 
 #### Purple Dye
 
@@ -188,13 +205,13 @@ Made from 1 skeleton skull and 1 coal or charcoal.
 
 ![Wither Skeleton Skull](img/wither_skeleton_skull.png)
 
-### Blast Furnace
+### Smelting & Blasting
 
-To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace. Presumably, it's the high temperature that transforms the materials.
+To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on a few of these. Presumably, it's the high temperature that transforms the materials.
 
 #### Blaze Powder
 
-Blasting nether quartz yields blaze powder.
+Smelting or blasting nether quartz yields blaze powder.
 
 ![Blaze Powder](img/blaze_powder.png)
 
@@ -215,9 +232,38 @@ Blasting lapis lazuli yields an ender pearl.
 
 #### Ghast Tear
 
-Blasting nether wart yields a ghast tear.
+Smelting or blasting nether wart yields a ghast tear.
 
 ![Ghast Tear](img/ghast_tears.png)
+
+#### Gold
+
+Smelting or blasting gold horse armor, totem of undying, or a bell now yields
+a gold ingot (instead of a gold nugget).
+
+![Gold Ingot](img/gold_ingot1.png)
+![Gold Ingot](img/gold_ingot2.png)
+![Gold Ingot](img/gold_ingot3.png)
+
+#### Iron
+
+It is now easier to recover iron from some items.
+
+Smelting or blasting an iron door, iron trapdoor, iron horse armor,
+or a minecart, hopper, smithing table, or cauldron yields an iron ingot
+(instead of an iron nugget).
+
+![Iron Ingot](img/iron_ingot1.png)
+![Iron Ingot](img/iron_ingot2.png)
+![Iron Ingot](img/iron_ingot3.png)
+![Iron Ingot](img/iron_ingot4.png)
+![Iron Ingot](img/iron_ingot5.png)
+![Iron Ingot](img/iron_ingot6.png)
+![Iron Ingot](img/iron_ingot7.png)
+
+Smelting or blasting any anvil yields an iron block.
+
+![Iron Block](img/iron_block.png)
 
 #### Phantom Membrane
 
@@ -232,6 +278,15 @@ Blasting a prismarine shard yields prismarine crystals.
 ![Prismarine Crystal](img/prismarine_crystal.png)
 
 I imagine this works because it refines the impurities out of the shard.
+
+### Stonecutter
+
+You can use the stonecutter to recover some resources:
+
+#### Diamonds
+
+Placing any diamond tool (except a shovel), armor piece, or jukebox on a
+stonecutter yields one diamond; diamond horse armor yields three diamonds.
 
 ## Drops
 
@@ -419,13 +474,3 @@ the player, but are not affected by this datapack:
 * Wolves
 
 All passive mobs are also unaffected.
-
-## Junk Traders
-
-NOTE: Not yet implemented. Coming soon!
-
-Any old iron! Any old iron! Instead of being completely useless, Nitwits are now Junk Traders. They'll happily buy and sell junk none of the other villagers want.
-
-* Bones
-* Sticks
-* Iron Nuggets
