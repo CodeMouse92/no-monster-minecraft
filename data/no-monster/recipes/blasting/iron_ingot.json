@@ -10,6 +10,18 @@
         },
         {
             "item": "minecraft:iron_trapdoor"
+        },
+        {
+            "item": "minecraft:cauldron"
+        },
+        {
+            "item": "minecraft:hopper"
+        },
+        {
+            "item": "minecraft:minecart"
+        },
+        {
+            "item": "minecraft:smithing_table"
         }
     ],
     "result": "minecraft:iron_ingot",

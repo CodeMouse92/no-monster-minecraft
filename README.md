@@ -239,22 +239,28 @@ Smelting or blasting basalt yields a ghast tear.
 
 #### Gold
 
-Smelting or blasting gold horse armor or a bell now yields a gold ingot
-(instead of a gold nugget).
+Smelting or blasting gold horse armor, totem of undying, or a bell now yields
+a gold ingot (instead of a gold nugget).
 
 ![Gold Ingot](img/gold_ingot1.png)
 ![Gold Ingot](img/gold_ingot2.png)
+![Gold Ingot](img/gold_ingot3.png)
 
 #### Iron
 
 It is now easier to recover iron from some items.
 
-Smelting or blasting an iron door, iron trapdoor, or iron horse armor
-yields an iron ingot (instead of an iron nugget).
+Smelting or blasting an iron door, iron trapdoor, iron horse armor,
+or a minecart, hopper, smithing table, or cauldron yields an iron ingot
+(instead of an iron nugget).
 
 ![Iron Ingot](img/iron_ingot1.png)
 ![Iron Ingot](img/iron_ingot2.png)
 ![Iron Ingot](img/iron_ingot3.png)
+![Iron Ingot](img/iron_ingot4.png)
+![Iron Ingot](img/iron_ingot5.png)
+![Iron Ingot](img/iron_ingot6.png)
+![Iron Ingot](img/iron_ingot7.png)
 
 Smelting or blasting any anvil yields an iron block.
 
@@ -280,8 +286,10 @@ You can use the stonecutter to recover some resources:
 
 #### Diamonds
 
-Placing any diamond tool (except a shovel) or armor piece on a stonecutter
-yields one diamond; diamond horse armor yields three diamonds.
+Placing any diamond tool (except a shovel), armor piece, or jukebox on a
+stonecutter yields one diamond; diamond horse armor yields three diamonds.
+
+#### Netherite
 
 Placing any netherite tool or armor piece on a stonecutter yields
 two netherite scrap.
@@ -296,7 +304,8 @@ The amounts below are only without looting.
 
 * Chicken: 1 raw chicken, 1-2 feathers.
 * Cow: 2-3 raw beef, 1-2 bones, 1-2 leather.
-* Donkey: 1-2  bones, 1-2 leather.
+* Donkey: 1-2 bones, 1-2 leather.
+* Hoglin: 2-4 raw pork, 1-2 leather, 1-2 bones.
 * Horse: 1-2 bones, 1-2 leather.
 * Llama: 1-2 bones, 1-2 leather.
 * Mooshroom: 2-3 raw beef, 1-2 bones, 1-2 leather,  1-2 red mushrooms.

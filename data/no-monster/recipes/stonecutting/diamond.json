@@ -25,6 +25,9 @@
         },
         {
             "item": "minecraft:diamond_boots"
+        },
+        {
+            "item": "minecraft:jukebox"
         }
     ],
     "result": "minecraft:diamond",
