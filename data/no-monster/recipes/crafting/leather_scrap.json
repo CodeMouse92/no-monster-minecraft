@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "group": "minecraft:leather",
     "ingredients": [
         [
             {
@@ -19,6 +20,5 @@
     "result": {
         "item": "minecraft:leather",
         "count": 1
-    },
-    "group": "minecraft:leather"
+    }
 }

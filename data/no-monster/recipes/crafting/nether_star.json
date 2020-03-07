@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "minecraft:nether_star",
-  "pattern": [
-    "***",
-    "*d*",
-    "***"
-  ],
-  "key": {
-    "d": {
-      "item": "minecraft:diamond"
+    "type": "minecraft:crafting_shaped",
+    "group": "minecraft:nether_star",
+    "pattern": [
+        "bbb",
+        "bdb",
+        "bbb"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "b": {
+            "item": "minecraft:blaze_powder"
+        }
     },
-	"*": {
-      "item": "minecraft:blaze_powder"
+    "result": {
+        "item": "minecraft:nether_star",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:nether_star",
-	"count": 1
-  }
 }
