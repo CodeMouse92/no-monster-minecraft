@@ -366,7 +366,7 @@ Control with the group rule `spawnGuardians`.
 These are non-monster nether mobs; there are safe ways of interacting with
 these.
 
-* Zombified Piglins
+* Zombie Pigmen
 
 Control with the group rule `spawnNetherMobs`.
 
