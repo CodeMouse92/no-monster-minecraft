@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aaa",
-	"aba",
-	"aaa"
+      "aaa",
+      "aba",
+      "aaa"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:gold_block"
-    },
-	"b": {
-      "item": "minecraft:golden_apple"
-    }
+      "a": {
+          "item": "minecraft:gold_block"
+      },
+      "b": {
+          "item": "minecraft:golden_apple"
+      }
   },
   "result": {
-    "item": "minecraft:enchanted_golden_apple",
-	"count": 1
+      "item": "minecraft:enchanted_golden_apple",
+      "count": 1
   }
 }

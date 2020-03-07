@@ -1,21 +1,37 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "minecraft:red_sand",
-  "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:sand"
-    },
-    "b": {
-      "item": "minecraft:red_dye"
-    }
-  },
+  "ingredients": [
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:sand"
+      },
+      {
+          "item": "minecraft:red_dye"
+      }
+      ],
   "result": {
-    "item": "minecraft:red_sand",
-	"count": 8
+      "item": "minecraft:red_sand",
+      "count": 8
   }
 }

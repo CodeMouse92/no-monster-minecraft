@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "group": "minecraft:saddle",
   "pattern": [
-    "l l",
-    "ili",
-    " l "
+      "l l",
+      "ili",
+      " l "
   ],
   "key": {
-    "l": {
-      "item": "minecraft:leather"
-    },
-    "i": {
-      "item": "minecraft:iron_ingot"
-    }
+      "l": {
+          "item": "minecraft:leather"
+      },
+      "i": {
+          "item": "minecraft:iron_ingot"
+      }
   },
   "result": {
-    "item": "minecraft:saddle",
-	"count": 1
+      "item": "minecraft:saddle",
+      "count": 1
   }
 }

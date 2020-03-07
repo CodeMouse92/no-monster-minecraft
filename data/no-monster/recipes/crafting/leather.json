@@ -2,12 +2,12 @@
     "type": "crafting_shaped",
     "group": "minecraft:leather",
     "pattern": [
-        "###",
-        "###",
-        "###"
+        "bbb",
+        "bbb",
+        "bbb"
     ],
     "key": {
-        "#": {
+        "b": {
             "item": "minecraft:bamboo"
         }
     },

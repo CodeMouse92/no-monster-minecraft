@@ -19,8 +19,6 @@ Created by Jason C. McDonald (CodeMouse92).
 
 Dedicated to Anne McDonald.
 
-Some recipes based on Craftman by TheDiamondPlayables
-
 ## Purpose
 
 My mother, Anne, enjoys playing Minecraft with me, but she's never liked dealing with hostile mobs, so we usually turn those off. The trouble is, without monsters, there are so many important items you can never get! What's more, Peaceful mode just makes things *too* easy. (We want to be able to eat.)
@@ -86,11 +84,9 @@ Crafted from 8 gold blocks and 1 golden apple.
 
 #### Globe Banner Pattern
 
-Crafted from 1 paper and 1 diamond.
+Crafted from 1 paper and 1 eye of ender.
 
 ![Globe Banner Pattern](img/globe_banner_pattern.png)
-
-(Originally from Craftman by TheDiamondPlayables)
 
 #### Gunpowder
 
@@ -149,11 +145,9 @@ Craftable from 1 sweet berries.
 
 #### Red Sand
 
-Crafted from 8 sand and 1 red dye.
+Crafted from 8 sand and 1 red dye (shapeless).
 
 ![Red Sand](img/red_sand.png)
-
-(Originally from Craftman by TheDiamondPlayables)
 
 #### Saddle
 
