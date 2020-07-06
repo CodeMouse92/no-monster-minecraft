@@ -341,7 +341,7 @@ You can enable or disable a group using the group rule. For example, to enable I
 To disable Illagers, run:
 
 ```
-/data modify remove no-monster:rules spawnIllagers
+/data remove storage no-monster:rules spawnIllagers
 ```
 
 ### Illagers
