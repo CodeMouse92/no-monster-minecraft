@@ -159,6 +159,14 @@ Blasting a prismarine shard yields prismarine crystals.
 
 I imagine this works because it refines the impurities out of the shard.
 
+### Stonecutter
+
+#### Skeleton Skull
+
+You can carve a skeleton skull with a bone block on a stonecutter. (Added for my pal Scarecrowman.)
+
+![Skull](img/skeleton_skull.png)
+
 ## Drops
 
 ### Animal Drops
