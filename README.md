@@ -314,7 +314,6 @@ Control with the group rule `spawnNetherMobs`.
 These are hostile nether mobs that don't quite classify as monsters.
 
 * Hoglins
-* Piglin Brute
 
 Control with the group rule `spawnNetherHostiles`.
 
