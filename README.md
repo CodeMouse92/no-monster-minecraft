@@ -123,7 +123,7 @@ To preserve some challenge of obtaining materials previously only available as h
 
 #### Blaze Powder
 
-Smelting or blasting nether sprouts yields blaze powder.
+Smelting or blasting crimson roots yields blaze powder.
 
 ![Blaze Powder](img/blaze_powder.png)
 

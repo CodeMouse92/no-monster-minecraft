@@ -1,7 +1,7 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "item": "minecraft:nether_sprouts"
+        "item": "minecraft:crimson_roots"
     },
     "result": "minecraft:blaze_powder",
     "experience": 0.5,
