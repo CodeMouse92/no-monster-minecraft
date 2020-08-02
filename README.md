@@ -30,10 +30,11 @@ While I was at it, I decided to fix a bunch of things that commonly drive my mot
 
 * This data pack provides alternative sources for all hostile mob drops. Some are craftable or smeltable, others come from non-hostile mob drops.
 
-* Adds the "missing recipes": saddles, bells, chain mail, elytra, and so on.
+* Adjusts the loot tables for animals to be more realistic.
 
-* Removes hostile mobs on any difficulty level. (You can control which types of
-hostile mobs spawn.)
+* Removes hostile mobs on any difficulty level. (You can control which types of hostile mobs spawn.)
+
+I highly recommend you also install my other data pack [The Missing Recipes](https://github.com/codemouse92/the-missing-recipes), which is designed as a companion to this one. Many recipes previously included in this datapack, but not actually directly to mob drops, have been moved to there.
 
 ## Recipes
 
