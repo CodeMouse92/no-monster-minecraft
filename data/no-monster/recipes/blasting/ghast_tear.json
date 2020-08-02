@@ -1,7 +1,7 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-        "item": "minecraft:basalt"
+        "item": "minecraft:warped_roots"
     },
     "result": "minecraft:ghast_tear",
     "experience": 0.35,

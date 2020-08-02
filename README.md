@@ -119,29 +119,37 @@ Made from 1 skeleton skull and 1 coal or charcoal.
 
 ### Smelting & Blasting
 
-To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on a few of these. Presumably, it's the high temperature that transforms the materials.
+To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on most of these. Presumably, it's the high temperature that transforms the materials.
 
 #### Blaze Powder
 
-Smelting or blasting crimson roots yields blaze powder.
+Blasting crimson roots yields blaze powder.
 
 ![Blaze Powder](img/blaze_powder.png)
 
 #### Blaze Rod
 
-Smelting or blasting weeping vines yields a blaze rod.
+Blasting weeping vines yields a blaze rod.
 
 ![Blaze Rod](img/blaze_rod.png)
 
 #### Ender Pearl
 
-Smelting or blasting a warped wart block yields an ender pearl.
+Blasting a warped wart block yields an ender pearl.
 
 ![Ender Pearl](img/ender_pearl.png)
 
+#### End Rod
+
+Blasting a twisting vine yields an end rod.
+
+![End Rod](img/end_rod.png)
+
+This is intended as a logical complement to blasting a weeping vine into a blaze rod; an end rod is a "warping" of a blaze rod, one of its constituent ingredients.
+
 #### Ghast Tear
 
-Smelting or blasting basalt yields a ghast tear.
+Blasting warped roots yields a ghast tear.
 
 ![Ghast Tear](img/ghast_tears.png)
 
