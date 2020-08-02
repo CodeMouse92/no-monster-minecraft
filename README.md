@@ -40,27 +40,6 @@ hostile mobs spawn.)
 
 ### Crafting
 
-#### Bell
-
-Crafted with 3 sticks, 3 gold ingots, and 1 gold nugget.
-
-![Bell](/img/bell.png)
-
-#### Chainmail
-
-Crafted using standard armor shapes, but with iron nuggets instead of ingots.
-
-![Chainmail Boots](img/chainmail_boots.png)
-![Chainmail Chestplate](img/chainmail_chestplate.png)
-![Chainmail Helmet](img/chainmail_helmet.png)
-![Chainmail Leggings](img/chainmail_leggings.png)
-
-#### Cobweb
-
-Crafted from 4 string and 1 slimeball.
-
-![Cobweb](img/cobweb.png)
-
 #### Dragon Breath
 
 Crafted from 1 blaze powder (see Blast Furnace), 1 glowstone, 1 ghast tear,
@@ -69,24 +48,6 @@ and 1 sweet berries.
 ![Dragon Breath](img/dragon_breath.png)
 
 Okay, I'll admit, the only reason berries are included here is because my mother was asking if there was *anything* she could do with berries besides eat them. In any case, it adds to the initial difficulty of crafting.
-
-#### Elytra
-
-Crafted from 3 sticks, 4 phantom membrane (see Blast Furnace), and 1 iron nugget.
-
-![Elytra](img/elytra.png)
-
-#### Enchanted Golden Apple
-
-Crafted from 8 gold blocks and 1 golden apple.
-
-![Enchanted Golden Apple](img/enchanted_golden_apple.png)
-
-#### Globe Banner Pattern
-
-Crafted from 1 paper and 1 eye of ender.
-
-![Globe Banner Pattern](img/globe_banner_pattern.png)
 
 #### Gunpowder
 
@@ -99,32 +60,10 @@ In real life, gunpowder is made from charcoal, saltpeter, and sulfur.
 I'm substituting ghast tears for sulfur and bone meal for sulfur (although
 that last one is a total scientific fabricator!)
 
-#### Leather
-
-Craftable from nine bamboo. (You can still get it from the usual sources.)
-
-![Leather](img/leather.png)
-
-You can also recover one leather from any leather armor on the crafting
-table; you can get three leather from leather horse armor or a saddle.
-
-![Leather](img/leather_scrap.png)
-![Leather](img/leather_scrap2.png)
-![Leather](img/leather_scrap3.png)
-![Leather](img/leather_scrap4.png)
-![Leather](img/leather_scrap5.png)
-![Leather](img/leather_scrap6.png)
-
 ### Music Discs
 
 Crafted from 1 dye sandwiched between 2 phantom membrane. The type of dye
 corresponds with the music disc.
-
-#### Name Tag
-
-Crafted from 1 string and 1 paper.
-
-![Name Tag](img/nametag.png)
 
 #### Nether Star
 
@@ -138,22 +77,6 @@ Nether wart is now recoverable from nether wart blocks. One block yields nine
 nether warts.
 
 ![Nether Wart](img/nether_wart.png)
-
-#### Purple Dye
-
-Craftable from 1 sweet berries.
-
-#### Red Sand
-
-Crafted from 8 sand and 1 red dye (shapeless).
-
-![Red Sand](img/red_sand.png)
-
-#### Saddle
-
-Crafted from 4 leather and 2 iron ingots.
-
-![Saddle](img/saddle.png)
 
 #### Slimeball
 
@@ -210,15 +133,6 @@ Smelting or blasting weeping vines yields a blaze rod.
 
 ![Blaze Rod](img/blaze_rod.png)
 
-#### Charcoal
-
-Finally, a use for poisonous potatoes! Blasting a potato or poisonous potato in a blast furnace makes charcoal.
-
-![Charcoal](img/charcoal.png)
-![Charcoal](img/charcoal2.png)
-
-This is based on an incident when I was 10, when I accidentally set a potato on fire in the microwave, producing charcoal (and destroying the microwave). Oops!
-
 #### Ender Pearl
 
 Smelting or blasting a warped wart block yields an ender pearl.
@@ -230,35 +144,6 @@ Smelting or blasting a warped wart block yields an ender pearl.
 Smelting or blasting basalt yields a ghast tear.
 
 ![Ghast Tear](img/ghast_tears.png)
-
-#### Gold
-
-Smelting or blasting gold horse armor, totem of undying, or a bell now yields
-a gold ingot (instead of a gold nugget).
-
-![Gold Ingot](img/gold_ingot1.png)
-![Gold Ingot](img/gold_ingot2.png)
-![Gold Ingot](img/gold_ingot3.png)
-
-#### Iron
-
-It is now easier to recover iron from some items.
-
-Smelting or blasting an iron door, iron trapdoor, iron horse armor,
-or a minecart, hopper, smithing table, or cauldron yields an iron ingot
-(instead of an iron nugget).
-
-![Iron Ingot](img/iron_ingot1.png)
-![Iron Ingot](img/iron_ingot2.png)
-![Iron Ingot](img/iron_ingot3.png)
-![Iron Ingot](img/iron_ingot4.png)
-![Iron Ingot](img/iron_ingot5.png)
-![Iron Ingot](img/iron_ingot6.png)
-![Iron Ingot](img/iron_ingot7.png)
-
-Smelting or blasting any anvil yields an iron block.
-
-![Iron Block](img/iron_block.png)
 
 #### Phantom Membrane
 
@@ -273,20 +158,6 @@ Blasting a prismarine shard yields prismarine crystals.
 ![Prismarine Crystal](img/prismarine_crystal.png)
 
 I imagine this works because it refines the impurities out of the shard.
-
-### Stonecutter
-
-You can use the stonecutter to recover some resources:
-
-#### Diamonds
-
-Placing any diamond tool (except a shovel), armor piece, or jukebox on a
-stonecutter yields one diamond; diamond horse armor yields three diamonds.
-
-#### Netherite
-
-Placing any netherite tool or armor piece on a stonecutter yields
-two netherite scrap.
 
 ## Drops
 
@@ -481,13 +352,3 @@ the player, but are not affected by this datapack:
 * Wolves
 
 All passive mobs are also unaffected.
-
-## Junk Traders
-
-NOTE: Not yet implemented. Coming soon!
-
-Any old iron! Any old iron! Instead of being completely useless, Nitwits are now Junk Traders. They'll happily buy and sell junk none of the other villagers want.
-
-* Bones
-* Sticks
-* Iron Nuggets
