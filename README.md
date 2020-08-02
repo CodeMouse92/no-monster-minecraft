@@ -11,7 +11,6 @@ A data pack for Minecrafters who like playing without monsters.
   * [Block Drops](#block-drops)
   * [Fishing](#fishing)
 * [Mob Control](#mob-control)
-* [Nitwit Trades](#nitwit-trades)
 
 ## Credits
 
@@ -77,6 +76,15 @@ Nether wart is now recoverable from nether wart blocks. One block yields nine
 nether warts.
 
 ![Nether Wart](img/nether_wart.png)
+
+#### Rotten Flesh
+
+Pork, beef, or mutton can be fermented into rotten flesh when combined with
+1 sugar and 1 brown mushroom.
+
+![Rotten Flesh](img/rotten_flesh.png)
+
+This recipe is based on that of a fermented spider eye.
 
 #### Slimeball
 
@@ -353,9 +361,7 @@ Control with the group rule `spawnBosses`.
 
 ### Non-Controlled Mobs
 
-One of the reasons for the datapack is the assumption that *some* challenge is
-desired. Just for reference, the following mobs are potentially dangerous to
-the player, but are not affected by this datapack:
+One of the reasons for the datapack is the assumption that *some* challenge is desired. Just for reference, the following mobs are potentially dangerous to the player, but are not affected by this datapack:
 
 * Bees
 * Dolphins
