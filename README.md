@@ -40,6 +40,12 @@ I highly recommend you also install my other data pack [The Missing Recipes](htt
 
 ### Crafting
 
+#### Creeper Head
+
+4 lime dye around a skeleton skull produces a creeper head.
+
+![Creeper Head](img/creeper_head.png)
+
 #### Dragon Breath
 
 Crafted from 1 blaze powder (see Blast Furnace), 1 glowstone, 1 ghast tear,
@@ -119,6 +125,13 @@ I like to imagine that it's the nether star which absorbs the damage for the pla
 Made from 3 prismarine crystals (see Blast Furnace) and 4 prismarine shards.
 
 ![Trident](img/trident.png)
+
+#### Zombie Head
+
+8 rotten flesh around a skeleton skull produces a zombie head. Not sure why
+you'd want this, but hey...here it is!
+
+![Zombie Head](img/zombie_head.png)
 
 #### Wither Skeleton Skull
 
