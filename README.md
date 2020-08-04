@@ -16,6 +16,8 @@ A data pack for Minecrafters who like playing without monsters.
 
 Created by Jason C. McDonald (CodeMouse92).
 
+Recipe screenshots and some .JSON files created on https://crafting.thedestruc7i0n.ca/
+
 Dedicated to Anne McDonald.
 
 ## Purpose
@@ -71,6 +73,13 @@ that last one is a total scientific fabricator!)
 Crafted from 1 dye sandwiched between 2 phantom membrane. The type of dye
 corresponds with the music disc.
 
+![Music Disc](img/music_disc.png)
+
+The recipe for 11 is hidden (unless you cheat and read the code!)
+
+It is not possible to craft Pigstep: these are very rare, and can only
+be found in the world.
+
 #### Nether Star
 
 Crafted from 8 blaze powder (see Blast Furnace) and 1 diamond.
@@ -106,7 +115,7 @@ egg, which can also be used to make adhesive in real life.
 
 #### String
 
-Crafted from 1 white wool block and 1 stick; yields 32 string.
+Crafted from 1 white wool block; yields 9 string.
 
 ![String](img/string.png)
 
@@ -138,6 +147,12 @@ you'd want this, but hey...here it is!
 Made from 1 skeleton skull and 1 coal or charcoal.
 
 ![Wither Skeleton Skull](img/wither_skeleton_skull.png)
+
+#### Wool
+
+Since 1 wool can yield 9 string (above), the inverse is true as well.
+
+![Wool](img/wool.png)
 
 ### Smelting & Blasting
 
