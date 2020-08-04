@@ -1,4 +1,3 @@
-tp @e[type=creeper] ~ -100 ~
 tp @e[type=drowned] ~ -100 ~
 tp @e[type=husk] ~ -100 ~
 tp @e[type=phantom] ~ -100 ~

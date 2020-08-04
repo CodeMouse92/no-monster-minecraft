@@ -1,5 +1,6 @@
 execute unless data storage no-monster:rules spawnArthropods run function no-monster:kill_mobs/kill_arthropods
 execute unless data storage no-monster:rules spawnBosses run function no-monster:kill_mobs/kill_bosses
+execute unless data storage no-monster:rules spawnCreepers run function no-monster:kill_mobs/kill_creepers
 execute unless data storage no-monster:rules spawnEndMobs run function no-monster:kill_mobs/kill_end_mobs
 execute unless data storage no-monster:rules spawnEndMonsters run function no-monster:kill_mobs/kill_end_monsters
 execute unless data storage no-monster:rules spawnGuardians run function no-monster:kill_mobs/kill_guardians

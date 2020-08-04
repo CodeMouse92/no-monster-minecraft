@@ -317,11 +317,19 @@ These are hostile overworld arthropods.
 
 Control with the group rule `spawnArthropods`.
 
+### Creepers
+
+Creepers are controlled separately, for those who don't like their stuff
+getting blown to pieces...or perhaps do, but dislike other monsters.
+
+* Creepers
+
+Control with the group rule `spawnCreepers`.
+
 ### Monsters
 
 These are monster-like overworld hostile mobs.
 
-* Creepers
 * Drowned
 * Husks
 * Phantom
@@ -396,10 +404,13 @@ Control with the group rule `spawnEndMonsters`.
 
 Because all items necessary to spawn bosses are accessible without other
 hostile mobs being enabled, these can be controlled separately as well.
-By default, bosses are automatically killed upon spawning.
 
 * Ender Dragon
 * Wither
+
+Dragons are automatically killed upon spawning, so they still drop their
+loot and produce a portal. Withers are removed so they don't spawn cheap
+nether stars - use the added recipe instead.
 
 Control with the group rule `spawnBosses`.
 
