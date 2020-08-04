@@ -142,6 +142,22 @@ Blasting weeping vines yields a blaze rod.
 
 ![Blaze Rod](img/blaze_rod.png)
 
+#### Dragon Egg
+
+The Dragon Egg has always been a coveted decor item, but now it has another use:
+a way to gain a lot of experience very quickly!
+
+Placing a Dragon Egg into a blast furnace yields...itself. (What can we say,
+dragon eggs really like being warm!) But it also produces *400 experience* in
+the process!
+
+![Dragon Egg](img/dragon_egg.png)
+
+You're going to need a *lot* of fuel and time for this, however.
+
+Don't worry about the dragon egg hatching, though — *that* takes thousands of
+years. Just keep the egg warm, and you'll reap the benefits.
+
 #### Ender Pearl
 
 Blasting a warped wart block yields an ender pearl.
