@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "group": "minecraft:string",
+    "ingredients": [
+        {
+            "item": "minecraft:white_carpet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 9
+    }
+}

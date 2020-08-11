@@ -115,9 +115,10 @@ egg, which can also be used to make adhesive in real life.
 
 #### String
 
-Crafted from 1 white wool block; yields 9 string.
+Crafted from 1 white wool (yields 14 string) or 1 white carpet (yields 9 string).
 
-![String](img/string.png)
+![String](img/string1.png)
+![String](img/string2.png)
 
 Of course, making yarn in real life is never this easy...
 
@@ -148,11 +149,11 @@ Made from 1 skeleton skull and 1 coal or charcoal.
 
 ![Wither Skeleton Skull](img/wither_skeleton_skull.png)
 
-#### Wool
+#### White Carpet
 
-Since 1 wool can yield 9 string (above), the inverse is true as well.
+Since 1 white carpet can yield 9 string (above), the inverse is true as well.
 
-![Wool](img/wool.png)
+![Wool](img/white_carpet.png)
 
 ### Smelting & Blasting
 
