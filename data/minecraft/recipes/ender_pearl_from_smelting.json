@@ -2,7 +2,7 @@
     "type": "minecraft:smelting",
     "group": "ender_pearl",
     "ingredient": {
-        "item": "minecraft:warped_wart_block"
+        "item": "minecraft:lapis_lazuli"
     },
     "result": "minecraft:ender_pearl",
     "experience": 1.0,

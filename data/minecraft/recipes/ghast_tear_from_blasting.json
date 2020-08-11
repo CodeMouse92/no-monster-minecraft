@@ -2,7 +2,7 @@
     "type": "minecraft:blasting",
     "group": "ghast_tear",
     "ingredient": {
-        "item": "minecraft:warped_roots"
+        "item": "minecraft:nether_wart"
     },
     "result": "minecraft:ghast_tear",
     "experience": 0.35,
