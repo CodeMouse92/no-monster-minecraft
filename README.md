@@ -151,7 +151,7 @@ Since 1 white carpet can yield 9 string (above), the inverse is true as well.
 
 #### White Wool
 
-3 white carpet atop each other yields 2 white wool.
+3 carpet atop each other yields 2 wool of the same color.
 
 ![Wool from Carpet](img/white_wool.png)
 
