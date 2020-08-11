@@ -154,7 +154,13 @@ Made from 1 skeleton skull and 1 coal or charcoal.
 
 Since 1 white carpet can yield 9 string (above), the inverse is true as well.
 
-![Wool](img/white_carpet.png)
+![Carpet from String](img/white_carpet.png)
+
+#### Wool
+
+3 white carpet atop each other yields 2 white wool.
+
+![Wool from Carpet](img/white_wool.png)
 
 ### Smelting & Blasting
 
