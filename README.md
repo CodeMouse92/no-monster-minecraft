@@ -16,7 +16,7 @@ A data pack for Minecrafters who like playing without monsters.
 
 Created by Jason C. McDonald (CodeMouse92).
 
-Recipe screenshots and some .JSON files created on https://crafting.thedestruc7i0n.ca/
+Recipe screenshots and some .JSON files created on [https://crafting.thedestruc7i0n.ca/](https://crafting.thedestruc7i0n.ca/)
 
 Dedicated to Anne McDonald.
 
