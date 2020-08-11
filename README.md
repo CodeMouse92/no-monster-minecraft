@@ -149,6 +149,10 @@ Since 1 white carpet can yield 9 string (above), the inverse is true as well.
 
 ![Wool](img/white_carpet.png)
 
+#### White Wool
+
+3 white carpet atop each other yields 2 white wool.
+
 ### Smelting & Blasting
 
 To preserve some challenge of obtaining materials previously only available as hostile mob drops, I've chosen to require use of a blast furnace on most of these. Presumably, it's the high temperature that transforms the materials.
