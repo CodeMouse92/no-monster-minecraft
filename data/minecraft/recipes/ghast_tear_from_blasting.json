@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "group": "ghast_tear",
+    "ingredient": {
+        "item": "minecraft:warped_roots"
+    },
+    "result": "minecraft:ghast_tear",
+    "experience": 0.35,
+    "cookingtime": 75
+}

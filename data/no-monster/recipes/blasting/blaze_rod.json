@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "minecraft:weeping_vines"
-    },
-    "result": "minecraft:blaze_rod",
-    "experience": 0.5,
-    "cookingtime": 300
-}

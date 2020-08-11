@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "music_disc",
+    "pattern": [
+        "#",
+        "C",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "C": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "result": {
+        "item": "minecraft:music_disc_11",
+        "count": 1
+    }
+}

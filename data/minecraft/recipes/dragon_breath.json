@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "dragon_breath",
+    "ingredients": [
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        },
+        {
+            "item": "minecraft:ghast_tear"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dragon_breath",
+        "count": 1
+    }
+}

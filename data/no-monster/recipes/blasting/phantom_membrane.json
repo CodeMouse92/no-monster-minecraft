@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-      "item": "minecraft:leather"
-  },
-  "result": "minecraft:phantom_membrane",
-  "experience": 1.0,
-  "cookingtime": 250
-}

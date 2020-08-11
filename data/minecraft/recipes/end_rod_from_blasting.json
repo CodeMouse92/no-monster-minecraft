@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "group": "end_rod",
+    "ingredient": {
+        "item": "minecraft:twisting_vines"
+    },
+    "result": "minecraft:end_rod",
+    "experience": 0.5,
+    "cookingtime": 300
+}

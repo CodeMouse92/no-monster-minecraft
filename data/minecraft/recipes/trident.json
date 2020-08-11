@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "trident",
+    "pattern": [
+        "###",
+        "P/P",
+        "P/P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
+    }
+}

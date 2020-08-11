@@ -41,7 +41,7 @@ I highly recommend you also install my other data pack [The Missing Recipes](htt
 ## Recipes
 
 ### Crafting
-lime
+
 #### Creeper Head
 
 4 lime dye around a skeleton skull produces a creeper head.
@@ -132,7 +132,8 @@ I like to imagine that it's the nether star which absorbs the damage for the pla
 
 #### Trident
 
-Made from 3 prismarine crystals (see Blast Furnace) and 4 prismarine shards.
+Made from 3 prismarine crystals (see Blast Furnace), 4 prismarine shards,
+and 2 blaze rods.
 
 ![Trident](img/trident.png)
 

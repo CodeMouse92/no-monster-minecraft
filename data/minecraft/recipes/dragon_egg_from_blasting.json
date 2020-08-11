@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:blasting",
+    "group": "dragon_egg",
+    "ingredient": {
+        "item": "minecraft:dragon_egg"
+    },
+    "result": "minecraft:dragon_egg",
+    "experience": 400,
+    "cookingtime": 60000
+}
