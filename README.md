@@ -41,7 +41,7 @@ I highly recommend you also install my other data pack [The Missing Recipes](htt
 ## Recipes
 
 ### Crafting
-
+lime
 #### Creeper Head
 
 4 lime dye around a skeleton skull produces a creeper head.
@@ -189,7 +189,7 @@ years. Just keep the egg warm, and you'll reap the benefits.
 
 #### Ender Pearl
 
-Blasting a warped wart block yields an ender pearl.
+Smelting or blasting a warped wart block yields an ender pearl.
 
 ![Ender Pearl](img/ender_pearl.png)
 
