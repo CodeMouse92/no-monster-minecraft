@@ -374,6 +374,7 @@ Control with the group rule `spawnNetherMobs`.
 These are hostile nether mobs that don't quite classify as monsters.
 
 * Hoglins
+* Piglin Brutes
 
 Control with the group rule `spawnNetherHostiles`.
 
@@ -381,10 +382,10 @@ Control with the group rule `spawnNetherHostiles`.
 
 These are monster-like hostile mobs in the nether.
 
-* Blaze
-* Ghast
-* Magma Cube
-* Wither Skeleton
+* Blazes
+* Ghasts
+* Magma Cubes
+* Wither Skeletons
 
 Control with the group rule `spawnNetherMonsters`.
 
@@ -393,7 +394,7 @@ Control with the group rule `spawnNetherMonsters`.
 These are non-monster mobs in the End; these are safe ways of interacting with
 these.
 
-* Enderman
+* Endermen
 
 Control with the group rule `spawnEndMobs`.
 
@@ -403,7 +404,7 @@ These are monster-like hostile mobs in the End. Shulkers themselves are *always*
 allowed to spawn, but eliminating the shulker bullets removes their means
 of hostility.
 
-* Endermite
+* Endermites
 * Shulker bullets
 
 Control with the group rule `spawnEndMonsters`.
