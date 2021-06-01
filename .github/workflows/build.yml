@@ -35,9 +35,17 @@ jobs:
         run: |
           zip -r ${{ env.FILENAME }} data img pack.mcmeta README.md INSTALL.md
           echo "Build status: ${{ job.status }}"
+          
+      - name: Upload the build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: no-monsters-minecraft_build
+          path: ./${{ env.FILENAME }}
 
-      - name: Download all workflow run artifacts
+      - name: Download the build artifact
         uses: actions/download-artifact@v2
+        with:
+          name: no-monsters-minecraft_build
            
       - name: Display structure of downloaded files
         run: ls -R
