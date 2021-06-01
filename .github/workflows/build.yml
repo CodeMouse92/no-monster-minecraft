@@ -29,22 +29,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - uses: actions/download-artifact@v2
+        with:
+           name: ${{ env.FILENAME }}
+           
+      - name: Display structure of downloaded files
+        run: ls -R
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           zip -r ${{ env.FILENAME }} data img pack.mcmeta README.md INSTALL.md
           echo "Build status: ${{ job.status }}"
-  download:
-     name: Download the build artifact
-     runs-on: ubuntu-latest
-     
-     steps:
-       - uses: actions/checkout@v2
-       
-       - uses: actions/download-artifact@v2
-         with: 
-           name: ${{ env.FILENAME }}
-           
-       - name: Display structure of downloaded files
-         run: ls -R
