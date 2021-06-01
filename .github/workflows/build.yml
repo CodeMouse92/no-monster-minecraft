@@ -2,7 +2,7 @@
 
 name: Build
 env:
-  FILENAME: no-monsters-minecraft_${{ github.action }}_${{ github.run_id }}.zip
+  FILENAME: no-monsters-minecraft_build_${{ github.run_id }}.zip
 
 # Controls when the action will run. 
 on:
@@ -37,8 +37,6 @@ jobs:
           echo "Build status: ${{ job.status }}"
 
       - uses: actions/download-artifact@v2
-        with:
-           name: ${{ env.FILENAME }}
            
       - name: Display structure of downloaded files
         run: ls -R
