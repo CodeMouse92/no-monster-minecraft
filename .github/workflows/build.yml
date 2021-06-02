@@ -43,11 +43,6 @@ jobs:
         with:
           name: no-monsters-minecraft_build
           path: ./${{ env.FILENAME }}
-
-      - name: Download the build artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: no-monsters-minecraft_build
            
       - name: Display structure of downloaded files
         run: ls -R
