@@ -11,10 +11,12 @@ on:
     branches:
     - main
     - dev
+    - actions
   pull_request:
     branches:
     - main
     - dev
+    - actions
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,10 +46,10 @@ jobs:
           name: no-monsters-minecraft_build
           path: ./${{ env.FILENAME }}
 
-      - name: Download the build artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: no-monsters-minecraft_build
+ #     - name: Download the build artifact
+ #       uses: actions/download-artifact@v2
+ #       with:
+ #         name: no-monsters-minecraft_build
            
       - name: Display structure of downloaded files
         run: ls -R
