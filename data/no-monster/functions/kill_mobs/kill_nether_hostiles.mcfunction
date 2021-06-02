@@ -1,2 +1,2 @@
-tp @e[type=hoglin] ~ -100 ~
-tp @e[type=piglin_brute] ~ -100 ~
+execute as @e[type=hoglin] run function no-monster:remove_mob_self
+execute as @e[type=piglin_brute] run function no-monster:remove_mob_self

@@ -1,3 +1,3 @@
-tp @e[type=cave_spider] ~ -100 ~
-tp @e[type=silverfish] ~ -100 ~
-tp @e[type=spider] ~ -100 ~
+execute as @e[type=cave_spider] run function no-monster:remove_mob_self
+execute as @e[type=silverfish] run function no-monster:remove_mob_self
+execute as @e[type=spider] run function no-monster:remove_mob_self
