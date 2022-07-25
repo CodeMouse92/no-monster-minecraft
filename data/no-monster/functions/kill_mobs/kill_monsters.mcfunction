@@ -1,8 +1,8 @@
-tp @e[type=drowned] ~ -100 ~
-tp @e[type=husk] ~ -100 ~
-tp @e[type=phantom] ~ -100 ~
-tp @e[type=slime] ~ -100 ~
-tp @e[type=skeleton] ~ -100 ~
-tp @e[type=stray] ~ -100 ~
-tp @e[type=zombie] ~ -100 ~
-tp @e[type=zombie_villager] ~ -100 ~
+execute as @e[type=drowned] run function no-monster:remove_mob_self
+execute as @e[type=husk] run function no-monster:remove_mob_self
+execute as @e[type=phantom] run function no-monster:remove_mob_self
+execute as @e[type=slime] run function no-monster:remove_mob_self
+execute as @e[type=skeleton] run function no-monster:remove_mob_self
+execute as @e[type=stray] run function no-monster:remove_mob_self
+execute as @e[type=zombie] run function no-monster:remove_mob_self
+execute as @e[type=zombie_villager] run function no-monster:remove_mob_self
