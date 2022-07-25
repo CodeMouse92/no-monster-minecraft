@@ -1,7 +1,7 @@
-tp @e[type=evoker] ~ -100 ~
-tp @e[type=illusioner] ~ -100 ~
-tp @e[type=pillager] ~ -100 ~
-tp @e[type=ravager] ~ -100 ~
-tp @e[type=vex] ~ -100 ~
-tp @e[type=vindicator] ~ -100 ~
-tp @e[type=witch] ~ -100 ~
+execute as @e[type=evoker] run function no-monster:remove_mob_self
+execute as @e[type=illusioner] run function no-monster:remove_mob_self
+execute as @e[type=pillager] run function no-monster:remove_mob_self
+execute as @e[type=ravager] run function no-monster:remove_mob_self
+execute as @e[type=vex] run function no-monster:remove_mob_self
+execute as @e[type=vindicator] run function no-monster:remove_mob_self
+execute as @e[type=witch] run function no-monster:remove_mob_self
