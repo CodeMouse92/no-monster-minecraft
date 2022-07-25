@@ -342,20 +342,31 @@ getting blown to pieces...or perhaps do, but dislike other monsters.
 
 Control with the group rule `spawnCreepers`.
 
-### Monsters
+### Slimes
 
-These are monster-like overworld hostile mobs.
+These are slime-type mobs.
+
+* Slimes
+* Magma Cubes
+
+Control with the group rule `spawnSlimes`
+
+### Undead
+
+These are undead overworld hostile mobs.
 
 * Drowned
 * Husks
 * Phantom
-* Slimes
 * Skeletons
 * Strays
 * Zombies
 * Zombie Villagers
 
-Control with the group rule `spawnMonsters`.
+Control with the group rule `spawnUndead`.
+
+> **Note:** The old `spawnMonster` rule no longer works; the Monsters category
+> has been split into Undead and Slimes.
 
 ### Guardians
 
@@ -378,14 +389,16 @@ Control with the group rule `spawnNetherMobs`.
 
 ### Nether Monsters
 
-These are monster-like hostile mobs in the nether.
+These are most of the monster-like hostile mobs in the nether.
 
-* Blaze
-* Ghast
-* Magma Cube
-* Wither Skeleton
+* Blazes
+* Ghasts
+* Wither Skeletons
 
 Control with the group rule `spawnNetherMonsters`.
+
+> **Note:** Magma Cubes are now controlled with `spawnSlimes`, due to their
+> desirability in relation to overworld frogs in 1.19 and beyond.
 
 ### End Mobs
 
@@ -427,12 +440,13 @@ One of the reasons for the datapack is the assumption that *some* challenge is d
 
 * Bees
 * Dolphins
+* Goats
 * Iron Golems
 * Llamas
 * Pandas
 * Polar Bears
 * Pufferfish
-* Shulkers
+* Shulkers (excluding bullets)
 * Trader Llamas
 * Wolves
 
