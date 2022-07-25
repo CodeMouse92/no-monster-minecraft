@@ -57,6 +57,14 @@ and 1 sweet berries.
 
 Okay, I'll admit, the only reason berries are included here is because my mother was asking if there was *anything* she could do with berries besides eat them. In any case, it adds to the initial difficulty of crafting.
 
+#### Froglight
+
+After much consideration, I decided not to override the Froglight recipes,
+mainly because I can't think of any good frog-based ingredient that I could
+use in a crafting recipe without making me a monster. Instead, I've moved
+Magma Cubes and Slimes to their own mob group, so you can enable them
+separately from everything else.
+
 #### Gunpowder
 
 Crafted from 1 coal or charcoal, 1 bonemeal, and 1 ghast tear.
@@ -334,20 +342,31 @@ getting blown to pieces...or perhaps do, but dislike other monsters.
 
 Control with the group rule `spawnCreepers`.
 
-### Monsters
+### Slimes
 
-These are monster-like overworld hostile mobs.
+These are slime-type mobs.
+
+* Slimes
+* Magma Cubes
+
+Control with the group rule `spawnSlimes`
+
+### Undead
+
+These are undead overworld hostile mobs.
 
 * Drowned
 * Husks
 * Phantom
-* Slimes
 * Skeletons
 * Strays
 * Zombies
 * Zombie Villagers
 
-Control with the group rule `spawnMonsters`.
+Control with the group rule `spawnUndead`.
+
+> **Note:** The old `spawnMonster` rule no longer works; the Monsters category
+> has been split into Undead and Slimes.
 
 ### Guardians
 
@@ -380,14 +399,16 @@ Control with the group rule `spawnNetherHostiles`.
 
 ### Nether Monsters
 
-These are monster-like hostile mobs in the nether.
+These are most of the monster-like hostile mobs in the nether.
 
 * Blazes
 * Ghasts
-* Magma Cubes
 * Wither Skeletons
 
 Control with the group rule `spawnNetherMonsters`.
+
+> **Note:** Magma Cubes are now controlled with `spawnSlimes`, due to their
+> desirability in relation to overworld frogs in 1.19 and beyond.
 
 ### End Mobs
 
@@ -421,21 +442,39 @@ Dragons are automatically killed upon spawning, so they still drop their
 loot and produce a portal. Withers are removed so they don't spawn cheap
 nether stars - use the added recipe instead.
 
+Wardens are not included in this group. See "Non-Controlled Mobs".
+
 Control with the group rule `spawnBosses`.
 
 ### Non-Controlled Mobs
 
-One of the reasons for the datapack is the assumption that *some* challenge is desired. Just for reference, the following mobs are potentially dangerous to the player, but are not affected by this datapack:
+One of the reasons for the datapack is the assumption that *some* challenge is
+desired. Just for reference, the following mobs are potentially dangerous to
+the player, but are not affected by this datapack:
 
 * Bees
 * Dolphins
+* Goats
 * Iron Golems
 * Llamas
 * Pandas
 * Polar Bears
 * Pufferfish
-* Shulkers
+* Shulkers (excluding bullets)
 * Trader Llamas
+* Warden (see note below)
 * Wolves
 
 All passive mobs are also unaffected.
+
+#### Why Not Wardens?
+
+There are a few reasons I've decided not to control the Warden with this
+data pack:
+
+1. It can already be controlled with the `doWardenSpawning` gamerule.
+
+2. Removing Wardens makes the Deep Dark and Ancient Cities quite a lot
+   less interesting.
+
+3. They have no drops, because you're supposed to be avoiding them anyway.
