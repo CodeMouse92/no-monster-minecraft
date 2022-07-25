@@ -1,2 +1,2 @@
-tp @e[type=elder_guardian] ~ -100 ~
-tp @e[type=guardian] ~ -100 ~
+execute as @e[type=elder_guardian] run function no-monster:remove_mob_self
+execute as @e[type=guardian] run function no-monster:remove_mob_self
