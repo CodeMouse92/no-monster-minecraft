@@ -5,7 +5,8 @@ execute unless data storage no-monster:rules spawnEndMobs run function no-monste
 execute unless data storage no-monster:rules spawnEndMonsters run function no-monster:kill_mobs/kill_end_monsters
 execute unless data storage no-monster:rules spawnGuardians run function no-monster:kill_mobs/kill_guardians
 execute unless data storage no-monster:rules spawnIllagers run function no-monster:kill_mobs/kill_illagers
-execute unless data storage no-monster:rules spawnMonsters run function no-monster:kill_mobs/kill_monsters
 execute unless data storage no-monster:rules spawnNetherMobs run function no-monster:kill_mobs/kill_nether_mobs
 execute unless data storage no-monster:rules spawnNetherHostiles run function no-monster:kill_mobs/kill_nether_hostiles
 execute unless data storage no-monster:rules spawnNetherMonsters run function no-monster:kill_mobs/kill_nether_monsters
+execute unless data storage no-monster:rules spawnSlimes run function no-monster:kill_mobs/kill_slimes
+execute unless data storage no-monster:rules spawnUndead run function no-monster:kill_mobs/kill_undead
