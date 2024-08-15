@@ -355,6 +355,7 @@ Control with the group rule `spawnSlimes`
 
 These are undead overworld hostile mobs.
 
+* Bogged
 * Drowned
 * Husks
 * Phantom
@@ -453,6 +454,7 @@ desired. Just for reference, the following mobs are potentially dangerous to
 the player, but are not affected by this datapack:
 
 * Bees
+* Breezes
 * Dolphins
 * Goats
 * Iron Golems
@@ -466,6 +468,12 @@ the player, but are not affected by this datapack:
 * Wolves
 
 All passive mobs are also unaffected.
+
+#### Why Not Breezes?
+
+I've decided not to control the Breeze with this data pack because they
+can only spawn from trial spawners in trial chambers. Trial chambers only
+exist for combat purposes, and can be avoided.
 
 #### Why Not Wardens?
 
