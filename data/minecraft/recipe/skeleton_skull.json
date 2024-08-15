@@ -4,6 +4,8 @@
     "ingredient": {
         "item": "minecraft:bone_block"
     },
-    "result": "minecraft:skeleton_skull",
+    "result": {
+        "id": "minecraft:skeleton_skull"
+    },
     "count": 1
 }

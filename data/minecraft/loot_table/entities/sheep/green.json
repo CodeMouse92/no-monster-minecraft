@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/sheep"
+          "value": "minecraft:entities/sheep"
         }
       ]
     }

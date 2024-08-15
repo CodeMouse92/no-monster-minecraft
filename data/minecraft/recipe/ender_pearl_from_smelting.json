@@ -4,7 +4,9 @@
     "ingredient": {
         "item": "minecraft:warped_wart_block"
     },
-    "result": "minecraft:ender_pearl",
+    "result": {
+        "id": "minecraft:ender_pearl"
+    },
     "experience": 1.0,
     "cookingtime": 300
 }

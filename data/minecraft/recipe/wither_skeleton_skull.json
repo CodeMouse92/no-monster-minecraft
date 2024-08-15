@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "group": "wither_skeleton_skull",
     "ingredients": [
         [
@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wither_skeleton_skull",
+        "id": "minecraft:wither_skeleton_skull",
         "count": 2
     }
 }

@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:brown_wool",
+        "id": "minecraft:brown_wool",
         "count": 2
     }
 }

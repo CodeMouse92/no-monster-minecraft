@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shaped",
+    "type": "minecraft:crafting_shaped",
     "group": "music_disc",
     "pattern": [
         "m",
@@ -16,7 +16,7 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_mall",
+        "id": "minecraft:music_disc_mall",
         "count": 1
     }
 }

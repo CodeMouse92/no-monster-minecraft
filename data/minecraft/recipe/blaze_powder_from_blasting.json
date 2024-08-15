@@ -4,7 +4,9 @@
     "ingredient": {
         "item": "minecraft:crimson_roots"
     },
-    "result": "minecraft:blaze_powder",
+    "result": {
+        "id": "minecraft:blaze_powder"
+    },
     "experience": 0.5,
     "cookingtime": 300
 }

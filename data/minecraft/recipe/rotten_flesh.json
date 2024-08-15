@@ -21,7 +21,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:rotten_flesh",
+        "id": "minecraft:rotten_flesh",
         "count": 1
     }
 }

@@ -4,7 +4,9 @@
     "ingredient": {
         "item": "minecraft:dragon_egg"
     },
-    "result": "minecraft:dragon_egg",
+    "result": {
+        "id": "minecraft:dragon_egg"
+    },
     "experience": 400,
     "cookingtime": 60000
 }

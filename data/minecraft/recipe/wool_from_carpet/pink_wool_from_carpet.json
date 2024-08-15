@@ -12,7 +12,7 @@
         }
     },
     "result": {
-        "item": "minecraft:pink_wool",
+        "id": "minecraft:pink_wool",
         "count": 2
     }
 }

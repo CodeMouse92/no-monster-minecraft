@@ -1,5 +1,5 @@
 {
-    "type": "crafting_shapeless",
+    "type": "minecraft:crafting_shapeless",
     "group": "gunpowder",
     "ingredients": [
         [
@@ -18,7 +18,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:gunpowder",
+        "id": "minecraft:gunpowder",
         "count": 3
     }
 }
