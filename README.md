@@ -100,8 +100,8 @@ Crafted from 1 coal or charcoal, 1 bonemeal, and 1 ghast tear.
 ![Gunpowder](img/gunpowder2.png)
 
 In real life, gunpowder is made from charcoal, saltpeter, and sulfur.
-I'm substituting ghast tears for sulfur and bone meal for sulfur (although
-that last one is a total scientific fabricator!)
+I'm substituting ghast tears for saltpeter and bone meal for sulfur (although
+that last one is a total scientific fabrication!)
 
 ### Music Discs
 
