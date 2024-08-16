@@ -15,7 +15,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wither_skeleton_skull",
-        "count": 2
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
     }
 }

@@ -4,7 +4,9 @@
   "ingredient": {
       "item": "minecraft:leather"
   },
-  "result": "minecraft:phantom_membrane",
+  "result": {
+        "id": "minecraft:phantom_membrane"
+    },
   "experience": 1.0,
   "cookingtime": 250
 }

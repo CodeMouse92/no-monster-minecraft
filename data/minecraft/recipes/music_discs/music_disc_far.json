@@ -16,7 +16,7 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_far",
+        "id": "minecraft:music_disc_far",
         "count": 1
     }
 }

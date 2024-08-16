@@ -16,7 +16,7 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_strad",
+        "id": "minecraft:music_disc_strad",
         "count": 1
     }
 }

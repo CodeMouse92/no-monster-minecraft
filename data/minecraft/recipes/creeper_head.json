@@ -15,7 +15,7 @@
         }
     },
     "result": {
-        "item": "minecraft:creeper_head",
+        "id": "minecraft:creeper_head",
         "count": 1
     }
 }

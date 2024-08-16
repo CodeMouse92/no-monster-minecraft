@@ -16,7 +16,7 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_chirp",
+        "id": "minecraft:music_disc_chirp",
         "count": 1
     }
 }

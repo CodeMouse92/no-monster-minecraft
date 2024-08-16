@@ -19,7 +19,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dragon_breath",
+        "id": "minecraft:dragon_breath",
         "count": 1
     }
 }

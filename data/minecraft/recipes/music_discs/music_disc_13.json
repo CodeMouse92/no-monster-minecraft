@@ -16,7 +16,7 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_13",
+        "id": "minecraft:music_disc_13",
         "count": 1
     }
 }

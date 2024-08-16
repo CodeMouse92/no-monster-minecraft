@@ -4,7 +4,9 @@
     "ingredient": {
         "item": "minecraft:warped_roots"
     },
-    "result": "minecraft:ghast_tear",
+    "result": {
+        "id": "minecraft:ghast_tear"
+    },
     "experience": 0.35,
     "cookingtime": 75
 }

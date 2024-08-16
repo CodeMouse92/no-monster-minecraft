@@ -4,7 +4,9 @@
     "ingredient": {
         "item": "minecraft:weeping_vines"
     },
-    "result": "minecraft:blaze_rod",
+    "result": {
+        "id": "minecraft:blaze_rod"
+    },
     "experience": 0.5,
     "cookingtime": 300
 }

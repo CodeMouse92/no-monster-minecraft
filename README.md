@@ -30,7 +30,7 @@ While I was at it, I decided to fix a bunch of things that commonly drive my mot
 
 ## Features
 
-* This data pack provides alternative sources for all hostile mob drops. Some are craftable or smeltable, others come from non-hostile mob drops.
+* This data pack provides alternative sources for (nearly) all hostile mob drops. Some are craftable or smeltable, others come from non-hostile mob drops.
 
 * Adjusts the loot tables for animals to be more realistic.
 
@@ -73,8 +73,8 @@ Crafted from 1 coal or charcoal, 1 bonemeal, and 1 ghast tear.
 ![Gunpowder](img/gunpowder2.png)
 
 In real life, gunpowder is made from charcoal, saltpeter, and sulfur.
-I'm substituting ghast tears for sulfur and bone meal for sulfur (although
-that last one is a total scientific fabricator!)
+I'm substituting ghast tears for saltpeter and bone meal for sulfur (although
+that last one is a total scientific fabrication!)
 
 ### Music Discs
 
@@ -252,6 +252,7 @@ Killing most animals now always yields bones and (if appropriate) meat. There is
 
 The amounts below are only without looting.
 
+* Camel: 1-2 bones, 1-2 leather.
 * Chicken: 1 raw chicken, 1-2 feathers.
 * Cow: 2-3 raw beef, 1-2 bones, 1-2 leather.
 * Donkey: 1-2 bones, 1-2 leather.
@@ -264,7 +265,7 @@ The amounts below are only without looting.
 * Rabbit: 1 raw rabbit, 1 rabbit hide.
 * Sheep: 1-2 raw mutton, 1-2 bones.
 * Skeleton Horse: 3-6 bones.
-* Trader Llama: 1-2 bones, 1-2 leather.
+* Trader Llama: 1-2 bones, 1-2 leather, 1 blue carpet.
 
 ### Block Drops
 

@@ -7,7 +7,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:string",
+        "id": "minecraft:string",
         "count": 14
     }
 }
