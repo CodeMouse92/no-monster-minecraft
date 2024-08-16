@@ -302,6 +302,7 @@ Killing most animals now always yields bones and (if appropriate) meat. There is
 
 The amounts below are only without looting.
 
+* Camel: 1-2 bones, 1-2 leather.
 * Chicken: 1 raw chicken, 1-2 feathers.
 * Cow: 2-3 raw beef, 1-2 bones, 1-2 leather.
 * Donkey: 1-2 bones, 1-2 leather.
@@ -314,7 +315,7 @@ The amounts below are only without looting.
 * Rabbit: 1 raw rabbit, 1 rabbit hide.
 * Sheep: 1-2 raw mutton, 1-2 bones.
 * Skeleton Horse: 3-6 bones.
-* Trader Llama: 1-2 bones, 1-2 leather.
+* Trader Llama: 1-2 bones, 1-2 leather, 1 blue carpet.
 
 ### Block Drops
 
