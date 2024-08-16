@@ -18,6 +18,8 @@ Created by Jason C. McDonald (CodeMouse92).
 
 Recipe screenshots and some .JSON files created on [https://crafting.thedestruc7i0n.ca/](https://crafting.thedestruc7i0n.ca/)
 
+Some .JSON files created on [https://misode.github.io/](https://misode.github.io/).
+
 Dedicated to Anne McDonald.
 
 ## Purpose
@@ -37,6 +39,31 @@ While I was at it, I decided to fix a bunch of things that commonly drive my mot
 * Removes hostile mobs on any difficulty level. (You can control which types of hostile mobs spawn.)
 
 I highly recommend you also install my other data pack [The Missing Recipes](https://github.com/codemouse92/the-missing-recipes), which is designed as a companion to this one. Many recipes previously included in this datapack, but not actually directly to mob drops, have been moved to there.
+
+## Nightmares: Temporarily Allowing Monsters
+
+Minecraft 1.21 added the new Trial Chambers for new combat challenges. Recognizing that players may want to enjoy
+this challenge (or other specific situations) without allowing all monsters all the time, I've provided two ways
+for you to temporarily enable monsters to spawn:
+
+* If _any_ player has the Bad Luck status effect, or
+* If _any_ player has the Raid Omen or Trial Omen status effect (not just Bad Omen).
+
+Please take care in multiplayer, as the effects are global!
+
+**If you really, _really_ don't want a type of monster to spawn, even during nightmares, enable the "never<Type>" rule
+for the monster type. See Mob Control.
+
+You can get the Bad Luck status effect from Nightmare Stew, a new recipe added
+by this data pack. The Raid Omen and Trial Omen status effects come from entering
+a village or trial chamber with the Bad Omen status effect, and that comes from
+consuming an Ominous Bottle.
+
+See Recipes for both recipes.
+
+> NOTE: Because the Bad Luck status effect is not applied by anything in vanilla Minecraft, this was a reasonably
+> safe status effect to use. However, be aware if you're using any other data packs or command blocks that confer
+> Bad Luck, as they will also allow monsters to spawn.
 
 ## Recipes
 
@@ -100,6 +127,29 @@ Nether wart is now recoverable from nether wart blocks. One block yields nine
 nether warts.
 
 ![Nether Wart](img/nether_wart.png)
+
+### Nightmare Stew
+
+Nightmare Stew is a brand new item added to this mod pack that confers the Bad Luck status effect for 10 minutes
+(half a day). When _any_ player has Bad Luck, all hostile mobs will be able to spawn as normal. As per usual,
+you can clear this effect by drinking milk.
+
+Craft by combining 1 wooden bowl, 1 red mushroom, 1 brown mushroom, and 1 poisonous potato.
+(Hey, that stew would give _me_ nightmares!)
+
+![Nightmare Stew](img/nightmare_stew.png)
+
+### Ominous Bottle
+
+When _any_ player has the Raid Omen or Trial Omen status effect, all hostile mobs will be able to spawn
+as normal. These come from entering a village or trial chamber while having the Bad Omen status effect,
+and you get _that_ from consuming an Ominous Bottle. As per usual, you can clear this effect by drinking milk.
+
+Craft by combining 1 glass bottle, 1 glow berries, 1 ink sac, and 1-5 fermented spider eyes, depending on
+the desired strength. 1 fermented spider eye will give you Ominous Bottle I, 2 fermented spider eyes will
+give you Ominous Bottle II, and so forth.
+
+![Nightmare Stew](img/ominous_bottle.png)
 
 #### Rotten Flesh
 
@@ -290,21 +340,36 @@ Lilypads are now also junk from fishing in swamps, and their likelihood as treas
 
 ## Mob Control
 
-The spawning of potentially hostile mobs are controlled by the datapack. Certain groups of mobs can be allowed by turning on particular gamerules. By default, none of these groups are allowed to spawn.
+The spawning of potentially hostile mobs are controlled by the datapack. Certain groups of mobs can be allowed or suppressed. By default, none of these groups are allowed to spawn.
 
-Most mobs are actually removed from the world altogether, instead of being
-killed in place, to eliminate drops. The only exceptions to this are the ender dragon, to facilitate escape from the end, and the wither, to provide another source for nether stars.
+Most mobs are actually removed from the world altogether, instead of being killed in place, to eliminate drops. The only exceptions to this are the ender dragon, to facilitate escape from the end, and the wither, to provide another source for nether stars.
 
-You can enable or disable a group using the group rule. For example, to enable Illagers, use:
+There are three control levels for each mob type:
+
+**Allow** permits the mob group to spawn normally. To allow a group, run `/function no-monster:control/allow/<group>`.
+
+**Suppress** prevents the mob group from spawning, except during nightmares. This is the default behavior. To suppress a group, run `/function no-monster:control/suppress/<group>`.
+
+**Block** prevents the mob group from spawning, even during nightmares. To block a group, run `/function no-monster:control/never/<group>`.
+
+> NOTE: The `spawn` game rules from previous versions of No Monster Minecraft still work, but you no longer need to set them directly!
+
+For example, to enable Illagers, use:
 
 ```
-/data modify storage no-monster:rules spawnIllagers set value true
+/function no-monster:control/allow/illagers
 ```
 
-To disable Illagers, run:
+To suppress Illagers again, run:
 
 ```
-/data remove storage no-monster:rules spawnIllagers
+/function no-monster:control/suppress/illagers
+```
+
+To ensure Illagers can NEVER spawn, even during nightmares, run:
+
+```
+/function no-monster:control/block/illagers
 ```
 
 ### Illagers
@@ -319,9 +384,15 @@ These are the evil villager types.
 * Vindicators
 * Witches
 
-Control with the group rule `spawnIllagers`.
+Control with one of these three commands
 
-Remember, you can also disable raids only using Minecraft's built-in `disableRaids` gamerule.
+```
+/function no-monster:control/allow/illagers
+/function no-monster:control/suppress/illagers
+/function no-monster:control/block/illagers
+```
+
+Remember, you can also disable only raids using Minecraft's built-in `disableRaids` gamerule.
 
 ### Arthropods
 
@@ -331,7 +402,13 @@ These are hostile overworld arthropods.
 * Silverfish
 * Spiders
 
-Control with the group rule `spawnArthropods`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/arthropods
+/function no-monster:control/suppress/arthropods
+/function no-monster:control/block/arthropods
+```
 
 ### Creepers
 
@@ -340,7 +417,13 @@ getting blown to pieces...or perhaps do, but dislike other monsters.
 
 * Creepers
 
-Control with the group rule `spawnCreepers`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/creepers
+/function no-monster:control/suppress/creepers
+/function no-monster:control/block/creepers
+```
 
 ### Slimes
 
@@ -349,7 +432,13 @@ These are slime-type mobs.
 * Slimes
 * Magma Cubes
 
-Control with the group rule `spawnSlimes`
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/slimes
+/function no-monster:control/suppress/slimes
+/function no-monster:control/block/slimes
+```
 
 ### Undead
 
@@ -364,7 +453,13 @@ These are undead overworld hostile mobs.
 * Zombies
 * Zombie Villagers
 
-Control with the group rule `spawnUndead`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/undead
+/function no-monster:control/suppress/undead
+/function no-monster:control/block/undead
+```
 
 > **Note:** The old `spawnMonster` rule no longer works; the Monsters category
 > has been split into Undead and Slimes.
@@ -377,7 +472,13 @@ monuments, and thus may still be wanted.
 * Elder Guardians
 * Guardians
 
-Control with the group rule `spawnGuardians`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/guardians
+/function no-monster:control/suppress/guardians
+/function no-monster:control/block/guardians
+```
 
 ### Nether Mobs
 
@@ -387,7 +488,13 @@ these.
 * Piglins
 * Zombified Piglins
 
-Control with the group rule `spawnNetherMobs`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/nether_mobs
+/function no-monster:control/suppress/nether_mobs
+/function no-monster:control/block/nether_mobs
+```
 
 ### Nether Hostiles
 
@@ -396,7 +503,13 @@ These are hostile nether mobs that don't quite classify as monsters.
 * Hoglins
 * Piglin Brutes
 
-Control with the group rule `spawnNetherHostiles`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/nether_hostiles
+/function no-monster:control/suppress/nether_hostiles
+/function no-monster:control/block/nether_hostiles
+```
 
 ### Nether Monsters
 
@@ -406,7 +519,13 @@ These are most of the monster-like hostile mobs in the nether.
 * Ghasts
 * Wither Skeletons
 
-Control with the group rule `spawnNetherMonsters`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/nether_monsters
+/function no-monster:control/suppress/nether_monsters
+/function no-monster:control/block/nether_monsters
+```
 
 > **Note:** Magma Cubes are now controlled with `spawnSlimes`, due to their
 > desirability in relation to overworld frogs in 1.19 and beyond.
@@ -418,7 +537,13 @@ these.
 
 * Endermen
 
-Control with the group rule `spawnEndMobs`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/end_mobs
+/function no-monster:control/suppress/end_mobs
+/function no-monster:control/block/end_mobs
+```
 
 ### End Monsters
 
@@ -429,7 +554,13 @@ of hostility.
 * Endermites
 * Shulker bullets
 
-Control with the group rule `spawnEndMonsters`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/end_monsters
+/function no-monster:control/suppress/end_monsters
+/function no-monster:control/block/end_monsters
+```
 
 ## Bosses
 
@@ -445,7 +576,13 @@ nether stars - use the added recipe instead.
 
 Wardens are not included in this group. See "Non-Controlled Mobs".
 
-Control with the group rule `spawnBosses`.
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/bosses
+/function no-monster:control/suppress/bosses
+/function no-monster:control/block/bosses
+```
 
 ### Non-Controlled Mobs
 
@@ -454,7 +591,7 @@ desired. Just for reference, the following mobs are potentially dangerous to
 the player, but are not affected by this datapack:
 
 * Bees
-* Breezes
+* Breezes (see note below)
 * Dolphins
 * Goats
 * Iron Golems
@@ -486,3 +623,9 @@ data pack:
    less interesting.
 
 3. They have no drops, because you're supposed to be avoiding them anyway.
+
+## Other Functions
+
+The functions under `no-monster/internals` are only intended to be used by the mod itself.
+Using them yourself may have unintended consequences...including, potentially, killing yourself.
+Don't use these. Just don't.

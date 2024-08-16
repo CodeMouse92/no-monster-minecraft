@@ -1,0 +1,39 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "minecraft:player"
+        },
+        "effects": {
+          "minecraft:unluck": {}
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "effects": {
+          "minecraft:trial_omen": {}
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "minecraft:player"
+        },
+        "effects": {
+          "minecraft:raid_omen": {}
+        }
+      }
+    }
+  ]
+}

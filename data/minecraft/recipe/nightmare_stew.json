@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:bowl"
+        },
+        {
+            "item": "minecraft:poisonous_potato"
+        },
+        {
+            "item": "minecraft:red_mushroom"
+        },
+        {
+            "item": "minecraft:brown_mushroom"
+        }
+    ],
+    "result": {
+        "id": "minecraft:suspicious_stew",
+        "count": 1,
+        "components": {
+            "minecraft:suspicious_stew_effects": [
+                {
+                "id": "minecraft:unluck",
+                "duration": 12000
+                }
+            ],
+            "minecraft:item_name": "{\"text\": \"Nightmare Stew\"}",
+            "minecraft:lore": ["{\"text\": \"Eating this allows monsters to spawn in the world.\"}"]
+        }
+    }
+}
