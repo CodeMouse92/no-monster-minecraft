@@ -7,12 +7,8 @@
         "#"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:phantom_membrane"
-        },
-        "C": {
-            "item": "minecraft:chorus_fruit"
-        }
+        "#": "minecraft:phantom_membrane",
+        "C": "minecraft:chorus_fruit"
     },
     "result": {
         "id": "minecraft:music_disc_11",

@@ -1,10 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "minecraft:slime_ball",
+  "group": "slime_ball",
   "ingredients": [
-    {
-      "item": "minecraft:slime_block"
-    }
+    "minecraft:slime_block"
   ],
   "result": {
     "id": "minecraft:slime_ball",

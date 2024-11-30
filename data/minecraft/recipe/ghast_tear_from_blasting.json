@@ -1,9 +1,7 @@
 {
     "type": "minecraft:blasting",
-    "group": "minecraft:ghast_tear",
-    "ingredient": {
-        "item": "minecraft:warped_roots"
-    },
+    "group": "ghast_tear",
+    "ingredient": "minecraft:warped_roots",
     "result": {
         "id": "minecraft:ghast_tear"
     },

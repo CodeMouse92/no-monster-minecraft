@@ -1,24 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "minecraft:totem_of_undying",
+    "group": "totem_of_undying",
     "pattern": [
         "ene",
         "gsg",
         "g g"
     ],
     "key": {
-        "e": {
-            "item": "minecraft:emerald"
-        },
-        "g": {
-            "item": "minecraft:gold_ingot"
-        },
-        "n": {
-            "item": "minecraft:gold_nugget"
-        },
-        "s": {
-            "item": "minecraft:nether_star"
-        }
+        "e": "minecraft:emerald",
+        "g": "minecraft:gold_ingot",
+        "n": "minecraft:gold_nugget",
+        "s": "minecraft:nether_star"
     },
     "result": {
         "id": "minecraft:totem_of_undying",

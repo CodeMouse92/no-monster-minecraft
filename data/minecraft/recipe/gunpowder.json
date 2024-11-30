@@ -1,21 +1,13 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "minecraft:gunpowder",
+    "group": "gunpowder",
     "ingredients": [
         [
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:charcoal"
-            }
+            "minecraft:coal",
+            "minecraft:charcoal"
         ],
-        {
-            "item": "minecraft:bone_meal"
-        },
-        {
-            "item": "minecraft:ghast_tear"
-        }
+        "minecraft:bone_meal",
+        "minecraft:ghast_tear"
     ],
     "result": {
         "id": "minecraft:gunpowder",

@@ -1,18 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "minecraft:wither_skeleton_skull",
+    "group": "wither_skeleton_skull",
     "ingredients": [
         [
-            {
-                "item": "minecraft:coal"
-            },
-            {
-                "item": "minecraft:charcoal"
-            }
+            "minecraft:coal",
+            "minecraft:charcoal"
         ],
-        {
-            "item": "minecraft:skeleton_skull"
-        }
+        "minecraft:skeleton_skull"
     ],
     "result": {
         "id": "minecraft:wither_skeleton_skull",

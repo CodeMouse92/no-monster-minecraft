@@ -7,9 +7,7 @@
         "#"
     ],
     "key": {
-        "#": {
-        "item": "minecraft:brown_carpet"
-        }
+        "#": "minecraft:brown_carpet"
     },
     "result": {
         "id": "minecraft:brown_wool",

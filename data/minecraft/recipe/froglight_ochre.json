@@ -1,16 +1,10 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "minecraft:ochre_froglight",
+    "group": "froglight",
     "ingredients": [
-        {
-            "item": "minecraft:slime_block"
-        },
-        {
-            "item": "minecraft:glow_ink_sac"
-        },
-        {
-            "item": "minecraft:yellow_dye"
-        }
+        "minecraft:slime_block",
+        "minecraft:glow_ink_sac",
+        "minecraft:yellow_dye"
     ],
     "result": {
         "id": "minecraft:ochre_froglight",

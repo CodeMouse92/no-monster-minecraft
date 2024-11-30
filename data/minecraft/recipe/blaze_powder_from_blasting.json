@@ -1,9 +1,7 @@
 {
     "type": "minecraft:blasting",
-    "group": "minecraft:blaze_powder",
-    "ingredient": {
-        "item": "minecraft:crimson_roots"
-    },
+    "group": "blaze_powder",
+    "ingredient": "minecraft:crimson_roots",
     "result": {
         "id": "minecraft:blaze_powder"
     },

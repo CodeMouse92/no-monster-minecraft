@@ -1,24 +1,14 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "minecraft:rotten_flesh",
+    "group": "rotten_flesh",
     "ingredients": [
-        {
-            "item": "minecraft:brown_mushroom"
-        },
+        "minecraft:brown_mushroom",
         [
-            {
-                "item": "minecraft:porkchop"
-            },
-            {
-                "item": "minecraft:mutton"
-            },
-            {
-                "item": "minecraft:beef"
-            }
+            "minecraft:porkchop",
+            "minecraft:mutton",
+            "minecraft:beef"
         ],
-        {
-            "item": "minecraft:sugar"
-        }
+        "minecraft:sugar"
     ],
     "result": {
         "id": "minecraft:rotten_flesh",

@@ -1,9 +1,7 @@
 {
     "type": "minecraft:stonecutting",
-    "group": "minecraft:skeleton_skull",
-    "ingredient": {
-        "item": "minecraft:bone_block"
-    },
+    "group": "skeleton_skull",
+    "ingredient": "minecraft:bone_block",
     "result": {
         "id": "minecraft:skeleton_skull"
     },

@@ -1,17 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "minecraft:slime_ball",
+    "group": "slime_ball",
     "ingredients": [
-        {
-        "item": "minecraft:egg"
-        },
+        "minecraft:egg",
         [
-            {
-                "item": "minecraft:cactus"
-            },
-            {
-                "item": "minecraft:kelp"
-            }
+            "minecraft:cactus",
+            "minecraft:kelp"
         ]
     ],
     "result": {

@@ -1,9 +1,7 @@
 {
     "type": "minecraft:blasting",
-    "group": "minecraft:dragon_egg",
-    "ingredient": {
-        "item": "minecraft:dragon_egg"
-    },
+    "group": "dragon_egg",
+    "ingredient": "minecraft:dragon_egg",
     "result": {
         "id": "minecraft:dragon_egg"
     },

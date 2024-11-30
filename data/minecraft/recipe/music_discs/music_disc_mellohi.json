@@ -7,13 +7,8 @@
         "m"
     ],
     "key": {
-        "m":
-        {
-            "item": "minecraft:phantom_membrane"
-        },
-        "c": {
-            "item": "minecraft:purple_dye"
-        }
+        "m": "minecraft:phantom_membrane",
+        "c": "minecraft:purple_dye"
     },
     "result": {
         "id": "minecraft:music_disc_mellohi",

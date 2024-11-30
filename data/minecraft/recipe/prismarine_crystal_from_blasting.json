@@ -1,9 +1,7 @@
 {
     "type": "minecraft:blasting",
-    "group": "minecraft:prismarine_crystals",
-    "ingredient": {
-        "item": "minecraft:prismarine_shard"
-    },
+    "group": "prismarine_crystals",
+    "ingredient": "minecraft:prismarine_shard",
     "result": {
         "id": "minecraft:prismarine_crystals"
     },

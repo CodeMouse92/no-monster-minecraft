@@ -1,9 +1,7 @@
 {
     "type": "minecraft:blasting",
-    "group": "minecraft:blaze_rod",
-    "ingredient": {
-        "item": "minecraft:weeping_vines"
-    },
+    "group": "blaze_rod",
+    "ingredient": "minecraft:weeping_vines",
     "result": {
         "id": "minecraft:blaze_rod"
     },

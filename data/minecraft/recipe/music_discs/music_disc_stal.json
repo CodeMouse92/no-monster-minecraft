@@ -7,13 +7,8 @@
         "m"
     ],
     "key": {
-        "m":
-        {
-            "item": "minecraft:phantom_membrane"
-        },
-        "c": {
-            "item": "minecraft:black_dye"
-        }
+        "m": "minecraft:phantom_membrane",
+        "c": "minecraft:black_dye"
     },
     "result": {
         "id": "minecraft:music_disc_stal",

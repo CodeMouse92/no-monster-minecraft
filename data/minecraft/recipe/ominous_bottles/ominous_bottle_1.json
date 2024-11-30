@@ -1,21 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "ominous_bottle",
   "ingredients": [
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glow_berries"
-    },
-    {
-      "item": "minecraft:ink_sac"
-    },
-    {
-      "item": "minecraft:fermented_spider_eye"
-    },
-    {
-      "item": "minecraft:fermented_spider_eye"
-    }
+    "minecraft:glass_bottle",
+    "minecraft:glow_berries",
+    "minecraft:ink_sac",
+    "minecraft:fermented_spider_eye",
+    "minecraft:fermented_spider_eye"
   ],
   "result": {
     "id": "minecraft:ominous_bottle",
