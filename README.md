@@ -376,6 +376,17 @@ To ensure Illagers can NEVER spawn, even during nightmares, run:
 /function no-monster:control/block/illagers
 ```
 
+### All
+
+If you just want to allow, suppress, or block all monsters, use one of the
+following commands:
+
+```
+/function no-monster:control/allow/all
+/function no-monster:control/suppress/all
+/function no-monster:control/block/all
+```
+
 ### Illagers
 
 These are the evil villager types.
