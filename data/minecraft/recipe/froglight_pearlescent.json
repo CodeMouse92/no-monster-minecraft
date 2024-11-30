@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "minecraft:pearlescent_froglight",
+    "ingredients": [
+        {
+            "item": "minecraft:slime_block"
+        },
+        {
+            "item": "minecraft:glow_ink_sac"
+        },
+        {
+            "item": "minecraft:white_dye"
+        }
+    ],
+    "result": {
+        "id": "minecraft:pearlescent_froglight",
+        "count": 1
+    }
+}

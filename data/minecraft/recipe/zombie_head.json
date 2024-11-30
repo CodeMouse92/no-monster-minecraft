@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "zombie_head",
+    "group": "minecraft:zombie_head",
     "pattern": [
         "###",
         "#S#",

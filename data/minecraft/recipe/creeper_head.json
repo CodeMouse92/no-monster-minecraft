@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "creeper_head",
+    "group": "minecraft:creeper_head",
     "pattern": [
         " # ",
         "#S#",

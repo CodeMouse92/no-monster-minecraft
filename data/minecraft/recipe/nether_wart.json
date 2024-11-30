@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "nether_wart",
+    "group": "minecraft:nether_wart",
     "ingredients": [
         {
             "item": "minecraft:nether_wart_block"

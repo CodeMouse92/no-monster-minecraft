@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "rotten_flesh",
+    "group": "minecraft:rotten_flesh",
     "ingredients": [
         {
             "item": "minecraft:brown_mushroom"

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "wither_skeleton_skull",
+    "group": "minecraft:wither_skeleton_skull",
     "ingredients": [
         [
             {

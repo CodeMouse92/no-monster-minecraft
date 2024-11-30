@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "gunpowder",
+    "group": "minecraft:gunpowder",
     "ingredients": [
         [
             {

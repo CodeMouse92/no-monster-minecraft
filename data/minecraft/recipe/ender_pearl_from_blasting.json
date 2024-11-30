@@ -1,6 +1,6 @@
 {
     "type": "minecraft:blasting",
-    "group": "ender_pearl",
+    "group": "minecraft:ender_pearl",
     "ingredient": {
         "item": "minecraft:warped_wart_block"
     },

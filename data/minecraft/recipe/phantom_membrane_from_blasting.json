@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "group": "phantom_membrane",
+  "group": "minecraft:phantom_membrane",
   "ingredient": {
       "item": "minecraft:leather"
   },

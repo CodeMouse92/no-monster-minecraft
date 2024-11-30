@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "trident",
+    "group": "minecraft:trident",
     "pattern": [
         "###",
         "P/P",

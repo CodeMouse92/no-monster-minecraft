@@ -14,7 +14,7 @@ A data pack for Minecrafters who like playing without monsters.
 
 ## Credits
 
-Created by Jason C. McDonald (CodeMouse92).
+Created by Jason C. McDonald (CodeMouse92), with some recipes from Scarecrowman.
 
 Recipe screenshots and some .JSON files created on [https://crafting.thedestruc7i0n.ca/](https://crafting.thedestruc7i0n.ca/)
 
@@ -86,11 +86,14 @@ Okay, I'll admit, the only reason berries are included here is because my mother
 
 #### Froglight
 
-After much consideration, I decided not to override the Froglight recipes,
-mainly because I can't think of any good frog-based ingredient that I could
-use in a crafting recipe without making me a monster. Instead, I've moved
-Magma Cubes and Slimes to their own mob group, so you can enable them
-separately from everything else.
+Crafted from 1 slime block, 1 glow ink sac, and either a white, lime, or
+yellow dye to determine the color.
+
+![Froglight Pearlescent](img/froglight_pearlescent.png)
+
+![Froglight Verdant](img/froglight_verdant.png)
+
+![Froglight Ochre](img/froglight_ochre.png)
 
 #### Gunpowder
 

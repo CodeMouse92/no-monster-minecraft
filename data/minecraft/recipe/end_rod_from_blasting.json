@@ -1,6 +1,6 @@
 {
     "type": "minecraft:blasting",
-    "group": "end_rod",
+    "group": "minecraft:end_rod",
     "ingredient": {
         "item": "minecraft:twisting_vines"
     },

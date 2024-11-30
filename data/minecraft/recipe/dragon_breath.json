@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "dragon_breath",
+    "group": "minecraft:dragon_breath",
     "ingredients": [
         {
             "item": "minecraft:blaze_powder"

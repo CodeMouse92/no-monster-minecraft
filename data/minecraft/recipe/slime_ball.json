@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "slime_ball",
+    "group": "minecraft:slime_ball",
     "ingredients": [
         {
         "item": "minecraft:egg"

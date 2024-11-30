@@ -1,6 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "totem_of_undying",
+    "group": "minecraft:totem_of_undying",
     "pattern": [
         "ene",
         "gsg",
