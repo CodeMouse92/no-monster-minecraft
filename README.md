@@ -425,18 +425,18 @@ Control with one of these three commands
 /function no-monster:control/block/arthropods
 ```
 
-### Creaking
+### Creakings
 
-Creaking are controlled separately, as they're a special type of mob.
+Creakings are controlled separately, as they're a special type of mob.
 
-* Creaking (Natural)
-* Creaking (Spawned)
+* Creakings (Natural)
+* Creakings (Spawned)
 
-Natural Creaking, the ones that are linked to a Creaking Heart, do not actually
+Natural Creakings, the ones that are linked to a Creaking Heart, do not actually
 despawn. Instead, they freeze and remain silent, so you can hit them as much
 as you want to generate resin from the Creaking Heart.
 
-Spawned Creaking, which are not linked to a Creaking Heart, despawn like normal.
+Spawned Creakings, which are not linked to a Creaking Heart, despawn like normal.
 
 If you start allowing Creakings, or have a nightmare while only supressing them,
 any natural Creakings which were frozen will become active again, so beware!
@@ -444,9 +444,9 @@ any natural Creakings which were frozen will become active again, so beware!
 Control with one of these three commands:
 
 ```
-/function no-monster:control/allow/creaking
-/function no-monster:control/suppress/creaking
-/function no-monster:control/block/creaking
+/function no-monster:control/allow/creakings
+/function no-monster:control/suppress/creakings
+/function no-monster:control/block/creakings
 ```
 
 ### Creepers

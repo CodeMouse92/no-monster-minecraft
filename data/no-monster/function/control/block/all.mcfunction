@@ -1,5 +1,6 @@
 execute run function no-monster:control/block/arthropods
 execute run function no-monster:control/block/bosses
+execute run function no-monster:control/block/creakings
 execute run function no-monster:control/block/creepers
 execute run function no-monster:control/block/end_mobs
 execute run function no-monster:control/block/end_monsters
