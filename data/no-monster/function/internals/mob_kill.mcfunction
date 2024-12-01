@@ -1,5 +1,6 @@
 execute if data storage no-monster:rules neverArthropods run function no-monster:internals/kill_mobs/kill_arthropods
 execute if data storage no-monster:rules neverBosses run function no-monster:internals/kill_mobs/kill_bosses
+execute if data storage no-monster:rules neverCreaking run function no-monster:internals/kill_mobs/kill_creaking
 execute if data storage no-monster:rules neverCreepers run function no-monster:internals/kill_mobs/kill_creepers
 execute if data storage no-monster:rules neverEndMobs run function no-monster:internals/kill_mobs/kill_end_mobs
 execute if data storage no-monster:rules neverEndMonsters run function no-monster:internals/kill_mobs/kill_end_monsters
@@ -13,6 +14,7 @@ execute if data storage no-monster:rules neverUndead run function no-monster:int
 execute if entity @a[predicate=no-monster:having_nightmares] run return fail
 execute unless data storage no-monster:rules spawnArthropods run function no-monster:internals/kill_mobs/kill_arthropods
 execute unless data storage no-monster:rules spawnBosses run function no-monster:internals/kill_mobs/kill_bosses
+execute unless data storage no-monster:rules spawnCreaking run function no-monster:internals/kill_mobs/kill_creaking
 execute unless data storage no-monster:rules spawnCreepers run function no-monster:internals/kill_mobs/kill_creepers
 execute unless data storage no-monster:rules spawnEndMobs run function no-monster:internals/kill_mobs/kill_end_mobs
 execute unless data storage no-monster:rules spawnEndMonsters run function no-monster:internals/kill_mobs/kill_end_monsters

@@ -1,5 +1,6 @@
 {
     "values": [
-        "no-monster:internals/mob_kill"
+        "no-monster:internals/mob_kill",
+        "no-monster:internals/mob_awaken"
     ]
 }
