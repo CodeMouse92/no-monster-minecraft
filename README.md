@@ -311,6 +311,7 @@ The amounts below are only without looting.
 * Donkey: 1-2 bones, 1-2 leather.
 * Hoglin: 2-4 raw pork, 1-2 leather, 1-2 bones.
 * Horse: 1-2 bones, 1-2 leather.
+* Husk Camel: 1-2 bones. 3-6 rotten flesh.
 * Llama: 1-2 bones, 1-2 leather.
 * Mooshroom: 2-3 raw beef, 1-2 bones, 1-2 leather,  1-2 red mushrooms.
 * Mule: 1-2 bones, 1-2 leather.
@@ -486,6 +487,7 @@ These are undead overworld hostile mobs.
 * Bogged
 * Drowned
 * Husks
+* Parched
 * Phantom
 * Skeletons
 * Strays
@@ -502,6 +504,27 @@ Control with one of these three commands
 
 > **Note:** The old `spawnMonster` rule no longer works; the Monsters category
 > has been split into Undead and Slimes.
+
+### Undead Animals
+
+These are undead overworld animals. They are not hostile by themselves, but
+may be disturbing to some players.
+
+* Camel Husk
+* Skeleton Horse
+* Zombie Horse
+* Zombie Nautilus
+
+Control with one of these three commands
+
+```
+/function no-monster:control/allow/undead_animals
+/function no-monster:control/suppress/undead_animals
+/function no-monster:control/block/undead_animals
+```
+
+> **Note:** These are ALLOWED to spawn by default, so loading the data pack
+> does not eliminate anyone's beloved herd of skeleton horses.
 
 ### Guardians
 
@@ -631,10 +654,12 @@ the player, but are not affected by this datapack:
 
 * Bees
 * Breezes (see note below)
+* Copper Golems
 * Dolphins
 * Goats
 * Iron Golems
 * Llamas
+* Nautilus
 * Pandas
 * Polar Bears
 * Pufferfish
