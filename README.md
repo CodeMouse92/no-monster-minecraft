@@ -113,10 +113,19 @@ corresponds with the music disc.
 
 ![Music Disc](img/music_disc.png)
 
-The recipe for 11 is hidden (unless you cheat and read the code!)
+The recipe for 11, Tears, and Lava Chicken is hidden
+(unless you cheat and read the code!)
 
-It is not possible to craft Pigstep: these are very rare, and can only
-be found in the world.
+It is not possible to craft the following rare discs, which can only be
+found or crafted in the world via vanilla means:
+
+* 5
+* Creator
+* Creator (Music Box)
+* otherside
+* Pigstep
+* Precipice
+* Relic
 
 #### Nether Star
 

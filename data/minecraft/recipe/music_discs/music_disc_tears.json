@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "music_disc",
+    "pattern": [
+        "m",
+        "c",
+        "m"
+    ],
+    "key": {
+        "m": "minecraft:phantom_membrane",
+        "c": "minecraft:ghast_tear"
+    },
+    "result": {
+        "id": "minecraft:music_disc_wait",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "music_disc",
+    "pattern": [
+        "m",
+        "c",
+        "m"
+    ],
+    "key": {
+        "m": "minecraft:feather",
+        "c": "minecraft:light_blue_dye"
+    },
+    "result": {
+        "id": "minecraft:music_disc_wait",
+        "count": 1
+    }
+}
