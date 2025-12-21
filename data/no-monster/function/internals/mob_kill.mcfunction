@@ -11,6 +11,7 @@ execute if data storage no-monster:rules neverNetherHostiles run function no-mon
 execute if data storage no-monster:rules neverNetherMonsters run function no-monster:internals/kill_mobs/kill_nether_monsters
 execute if data storage no-monster:rules neverSlimes run function no-monster:internals/kill_mobs/kill_slimes
 execute if data storage no-monster:rules neverUndead run function no-monster:internals/kill_mobs/kill_undead
+execute if data storage no-monster:rules neverUndeadAnimals run function no-monster:internals/kill_mobs/kill_undead_animals
 execute if entity @a[predicate=no-monster:having_nightmares] run return fail
 execute unless data storage no-monster:rules spawnArthropods run function no-monster:internals/kill_mobs/kill_arthropods
 execute unless data storage no-monster:rules spawnBosses run function no-monster:internals/kill_mobs/kill_bosses
@@ -25,3 +26,4 @@ execute unless data storage no-monster:rules spawnNetherHostiles run function no
 execute unless data storage no-monster:rules spawnNetherMonsters run function no-monster:internals/kill_mobs/kill_nether_monsters
 execute unless data storage no-monster:rules spawnSlimes run function no-monster:internals/kill_mobs/kill_slimes
 execute unless data storage no-monster:rules spawnUndead run function no-monster:internals/kill_mobs/kill_undead
+execute if data storage no-monster:rules suppressUndeadAnimals run function no-monster:internals/kill_mobs/kill_undead_animals
