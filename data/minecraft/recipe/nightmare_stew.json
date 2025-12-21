@@ -17,8 +17,8 @@
                 "duration": 12000
                 }
             ],
-            "minecraft:item_name": "{\"text\": \"Nightmare Stew\"}",
-            "minecraft:lore": ["{\"text\": \"Eating this allows monsters to spawn in the world.\"}"]
+            "minecraft:item_name": {"text": "Nightmare Stew"},
+            "minecraft:lore": [ {"text": "Eating this allows monsters to spawn in the world."} ]
         }
     }
 }
