@@ -1,6 +1,7 @@
 {
    "pack":{
-      "pack_format": 88,
+      "min_format": [94, 1],
+      "max_format": [95, 0],
       "description": "Normal Minecraft...just without monsters!"
    }
 }
